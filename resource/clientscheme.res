@@ -607,6 +607,24 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		"roboto8"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"8"
+				"antialias"	"1"
+			}
+		}
+		"robotoreg8"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"8"
+				"antialias"	"1"
+			}
+		}
 		"roboto10"
 		{
 			"1"

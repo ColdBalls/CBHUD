@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Spy.res"
 {
 	HudItemEffectMeter
 	{
@@ -17,26 +17,18 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"					"c-101"
-		"ypos"					"c100"
-		"zpos"			"0"
-		"wide"			"15"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_streak"
-		"scaleImage"	"1"			
+		"xpos"			"9999"		
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"9999"
-		"ypos"					"c125"
+		"xpos"					"c-135"
+		"ypos"					"c87"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"15"
+		"wide"					"30"
+		"tall"					"20"	
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -47,7 +39,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"roboto12"
-	}
+		}
 
 	"ItemEffectMeter"
 	{	
@@ -56,8 +48,11 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
+		"wide_minmode"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -72,40 +67,40 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"c-85"
-		"ypos"					"c98"
+		"xpos"					"c-130"
+		"ypos"					"c73"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"20"
 		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"West"
+		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"roboto18"
-	}
+		"font"					"roboto26"
+	}	
 	
 	"ItemEffectMeterCountDropShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountDropShadow"
-		"xpos"					"c-84"
-		"ypos"					"c99"
+		"xpos"					"c-129"
+		"ypos"					"c74"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"20"
 		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"West"
+		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"roboto18"
-		"fgcolor"				"0 0 0 255"
+		"font"					"roboto26"
+		"fgcolor_override"	"0 0 0 255"
 	}
 }
