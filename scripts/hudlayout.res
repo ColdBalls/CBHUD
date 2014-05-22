@@ -201,10 +201,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
+		"xpos"					"c-66"
+		"ypos"					"c95"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -996,11 +994,9 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+		"zpos"			"4"
 		"wide"			"470"
 		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
 	}	
 	

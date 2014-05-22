@@ -823,6 +823,47 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Blocks42"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"42"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}			
+		"Blocks44"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"44"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}		
+		"Blocks46"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"46"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}		
+		"Blocks48"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"48"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
 		"Default"
 		{
 			"1"
@@ -4362,6 +4403,12 @@ Scheme
 		{
 			"font" "resource/symbol.ttf"
 			"name" "symbol"
+		}
+		"15" // Tournament HUD block
+		{
+		
+			"font" "resource/Blocks.ttf"
+			"name" "Blocks"
 		}
 	}
 }
