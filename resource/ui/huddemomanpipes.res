@@ -6,7 +6,7 @@
 		"fieldName"		"background"
 		"xpos"			"9999"
 		"ypos"			"6"
-		"zpos"			"0"
+		"zpos"			"5"
 		"wide"			"76"
 		"tall"			"38"
 		"visible"		"1"
@@ -23,9 +23,9 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"c-30"
-		"ypos"					"c75"
-		"zpos"					"2"
+		"xpos"					"9999"
+		"ypos"					"c95"
+		"zpos"					"5"
 		"wide"					"60"
 		"tall"					"6"
 		"autoResize"			"1"
@@ -47,7 +47,7 @@
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
 		"xpos"					"c-30"
-		"ypos"					"c76"
+		"ypos"					"c96"
 		"zpos"					"2"
 		"wide"					"60"
 		"tall"					"6"				
@@ -64,8 +64,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"c-30"
-		"ypos"			"c50"
+		"xpos"			"c70"
+		"ypos"			"c65"
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"50"
@@ -96,7 +96,7 @@
 			"textAlignment"	"Center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"roboto26"
+			"font"			"roboto18"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -116,7 +116,7 @@
 			"textAlignment"	"Center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"roboto26"
+			"font"			"roboto18"
 			"fgcolor"		"0 0 0 255"
 		}		
 	}
@@ -125,8 +125,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"c-30"
-		"ypos"			"c50"
+		"xpos"			"c70"
+		"ypos"			"c65"
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"50"
@@ -166,7 +166,7 @@
 			"textAlignment"	"Center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"roboto26"
+			"font"			"roboto18"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -186,7 +186,7 @@
 			"textAlignment"	"Center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"roboto26"
+			"font"			"roboto18"
 			"fgcolor"		"0 0 0 255"
 		}			
 	}				

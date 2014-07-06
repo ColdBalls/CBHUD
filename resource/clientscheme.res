@@ -882,7 +882,7 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
-			"3"
+			"3" //Change this one for the scoreboard's font!!!
 			{
 				"name"		"Roboto Condensed Regular"
 				"tall"		"15"

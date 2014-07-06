@@ -1,12 +1,47 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
+
+	"HealthCrossBG1"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HealthCrossBG1"
+		"xpos"			"31"
+		"ypos"			"29"
+		"zpos"			"3"
+		"wide"			"30"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"57 53 52 255"
+		"scaleImage"		"1"
+	}	
+	
+	"HealthCrossBG2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HealthCrossBG2"
+		"xpos"			"40"
+		"ypos"			"20"
+		"zpos"			"3"
+		"wide"			"11"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"57 53 52 255"
+		"scaleImage"		"1"
+	}
+
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-140"		[$WIN32]
-		"ypos"			"c50"	[$WIN32]
+		"ypos"			"c70"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"100"
@@ -33,11 +68,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"31"
-		"ypos"			"20"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
