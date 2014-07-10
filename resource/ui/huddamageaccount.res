@@ -12,4 +12,21 @@
 		"delta_item_font"		"DamageFontSmall"
 		"delta_item_font_big"	"DamageFontSmall"
 	}
+
+	"DamageAccountValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountValue"
+		"xpos"			"c-155"
+		"ypos"			"c75"
+		"zpos"			"2"
+		"wide"			"50"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"	"East"
+		"fgcolor"		"255 255 0 255"
+		"font"			"DamageFontSmall"
+	}
 }

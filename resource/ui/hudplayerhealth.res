@@ -106,7 +106,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"West"	
 		"font"			"roboto28"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"CBHealthNormal"	
 	}	
 	
 	"PlayerStatusHealthValueDropShadow"
@@ -123,7 +123,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"West"	
 		"font"			"roboto28"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"CBDropShadow"
 	}
 	
 	"PlayerStatusBleedImage"

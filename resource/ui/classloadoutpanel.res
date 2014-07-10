@@ -71,20 +71,31 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"8"
+			"tall"			"70"
 			"autoResize"	"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"+"
-			"font"			"HudFontSmallBold"
+			"font"			"roboto12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"bgcolor_override"		"255 0 0 255"
+			"noitem_textcolor"		"117 107 94 255"
+			"PaintBackgroundType"	"2"
+			"paintborder"	"1"
+			
+			"fgcolor_override"			"Base Color"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			"border_depressed"			"NoBorder"
 		}
 	}
 	
@@ -155,7 +166,7 @@
 		
 		"render_texture"	"0"
 		"fov"			"30"
-		"allow_manip"		"1"
+		"allow_rot"		"1"
 				
 		"model"
 		{
@@ -410,84 +421,6 @@
 		"PaintBackgroundType"	"2"
 	}
 
-	"RedButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"RedButton"
-//		"xpos"				"c-40"
-//		"ypos"				"35"
-		"xpos"				"c3"
-		"ypos"				"22"
-		"zpos"				"12"	
-		"wide"				"80"
-		"tall"				"20"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"RED Team"
-		"textAlignment"		"center"
-		"font"				"roboto16"
-		"scaleImage"		"1"
-		"command"			"sv_cheats 1;r_skin 0"
-		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" "184 56 59 255"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "250 68 17 255"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"keyboardinputenabled"	"0"
-		
-		"paintbackground"	"1"
-		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
-		"border_depressed"			"NoBorder"
-	}
-	
-	"BlueButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"BlueButton"
-//		"xpos"				"c-40"
-//		"ypos"				"10"
-		"xpos"				"c-85"
-		"ypos"				"22"
-		"zpos"				"12"	
-		"wide"				"80"
-		"tall"				"20"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"BLU Team"
-		"textAlignment"		"center"
-		"font"				"roboto16"
-		"scaleImage"		"1"
-		"command"			"sv_cheats 1;r_skin 1"
-		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" "88 133 162 255"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "0 98 255 255"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"keyboardinputenabled"	"0"
-		
-		"paintbackground"	"1"
-		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
-		"border_depressed"			"NoBorder"
-	}
-	
 	"CharacterLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"

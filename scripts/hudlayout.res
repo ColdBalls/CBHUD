@@ -79,7 +79,7 @@ fogCrosshair
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairCirclePulse"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"2"
 
@@ -120,8 +120,8 @@ fogCrosshair
 		"controlName"	"CExLabel"
 		"fieldName"	 	"KonrWings"
 		
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-108"
@@ -455,10 +455,10 @@ fogCrosshair
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"r230"	[$WIN32]
-		"wide"			"f0"
-		"tall"			"250"
+		"xpos"			"c-120"	[$WIN32]
+		"ypos"			"c75"	[$WIN32]
+		"wide"			"350"
+		"tall"			"200"
 	}
 	
 	HudDemomanCharge
@@ -565,8 +565,8 @@ fogCrosshair
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c75"	[$WIN32]
-		"ypos"					"c-40"	[$WIN32]
+		"xpos"					"c70"	[$WIN32]
+		"ypos"					"c0"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -616,9 +616,9 @@ fogCrosshair
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"      "c-126"
-		"ypos"		"c70"
+		"ypos"		"c56"
 		"wide"	 	"252"
-		"tall"	 	"20"
+		"tall"	 	"40"
 		"priority"	"40"
 	}
 	
@@ -640,7 +640,7 @@ fogCrosshair
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c45"
+		"ypos"		"c25"
 		
 		"wide"	 	"252"
 		"tall"	 	"35"
@@ -652,12 +652,10 @@ fogCrosshair
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
-		"wide"		"640"
-		"tall"		"480"
+		"xpos"		"c-242"	[$WIN32]
+		"ypos"		"c150"	[$WIN32]
+		"wide"		"150"
+		"tall"		"50"
 		
 		"PaintBackgroundType"	"2"
 	}
@@ -667,10 +665,10 @@ fogCrosshair
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-300"
-		"ypos"		"r170"
-		"wide"		"400"
-		"tall"		"200"
+		"xpos"		"0"
+		"ypos"		"c-100"
+		"wide"		"500"
+		"tall"		"400"
 		
 		"PaintBackgroundType"	"2"
 	}
@@ -1242,24 +1240,24 @@ fogCrosshair
 	
 	FreezePanel
 	{
-		"fieldName"				"FreezePanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
+        "fieldName"             "FreezePanel"
+        "visible"               "1"
+        "enabled"               "1"
+        "xpos"                  "-320"
+        "ypos"                  "0"
+        "wide"                  "f0"
+        "tall"                  "480"
 	}
 
 	FreezePanelCallout
 	{
-		"fieldName"				"FreezePanelCallout"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"200"
-		"ypos"					"200"
-		"wide"					"100"
-		"tall"					"50"
+        "fieldName"             "FreezePanelCallout"
+        "visible"               "1"
+        "enabled"               "1"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "wide"                  "100"
+        "tall"                  "50"
 	}
 
 	AnnotationsPanelCallout
@@ -1447,22 +1445,20 @@ fogCrosshair
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"100"
 		"wide"					"f0"
 		"tall"					"480"
 	}
 
 	HudStopWatch
 	{
-		"fieldName"				"HudStopWatch"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
-		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
-		"wide"					"125"
-		"tall"					"55"
+		"fieldName"	"HudStopWatch"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"f0"
+		"tall"		"480"
 	}
 	
 	NotificationPanel
@@ -1573,10 +1569,10 @@ fogCrosshair
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"r270"
-		"ypos"					"300"
+		"ypos"					"r200"
 		"zpos"					"10"
-		"wide"					"f0"
-		"tall"					"480"
+		"wide"					"300"
+		"tall"					"150"
 	}
 	
 	HudTFCrosshair

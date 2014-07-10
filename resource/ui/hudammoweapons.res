@@ -37,7 +37,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"			"roboto28"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"CBAmmoClipNormal"
 		"xpos"			"10"
 		"ypos"			"25"	[$WIN32]
 		"zpos"			"5"
@@ -54,7 +54,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"roboto28"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"CBDropShadow"
 		"xpos"			"12"
 		"ypos"			"27"
 		"zpos"			"4"
@@ -70,8 +70,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"roboto18"
-		"fgcolor"		"255 255 255 255"
+		"font"			"roboto20"
+		"fgcolor"		"CBAmmoReserveNormal"
 		"xpos"			"70"
 		"ypos"			"25"
 		"zpos"			"7"
@@ -86,8 +86,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"roboto18"
-		"fgcolor"		"0 0 0 255"
+		"font"			"roboto20"
+		"fgcolor"		"CBDropShadow"
 		"xpos"			"72"
 		"ypos"			"27"
 		"zpos"			"7"
@@ -103,7 +103,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
 		"font"			"roboto28"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"CBAmmoNoClipNormal"
 		"xpos"			"42"
 		"ypos"			"25"	[$WIN32]
 		"zpos"			"5"
@@ -120,7 +120,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"roboto28"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"CBDropShadow"
 		"xpos"			"44"
 		"ypos"			"27"	[$WIN32]
 		"zpos"			"5"
