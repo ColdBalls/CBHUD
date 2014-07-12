@@ -27,7 +27,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"PingBG"
-		"xpos"			"r510"
+		"xpos"			"c-240"
 		"ypos"			"90"
 		"zpos"			"0"
 		"wide"			"480"
@@ -44,11 +44,11 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardMainBG"
-		"xpos"			"r510"
+		"xpos"			"c-240"
 		"ypos"			"105"
 		"zpos"			"0"
 		"wide"			"480"
-		"tall"				"210"
+		"tall"				"220"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -61,11 +61,11 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"r650"
+		"xpos"			"c-380"
 		"ypos"			"105"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"130"
-		"tall"			"210"
+		"tall"			"220"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -79,7 +79,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBarTitleBar"
-		"xpos"			"r650"
+		"xpos"			"c-380"
 		"ypos"			"90"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"130"
@@ -97,7 +97,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"r510"
+		"xpos"			"c-240"
 		"ypos"			"80"
 		"wide"			"240"
 		"tall"			"10"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"r270"
+		"xpos"			"c0"
 		"ypos"			"80"
 		"wide"			"240"
 		"tall"			"10"
@@ -147,7 +147,7 @@
 		"font"			"roboto26"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"East"
-		"xpos"			"r510"
+		"xpos"			"c-240"
 		"ypos"			"65"
 		"wide"			"200"
 		"tall"			"30"
@@ -169,7 +169,7 @@
 		"fgcolor"	"255 255 255 255"
 		"labelText"	"VS"
 		"textAlignment"	"center"
-		"xpos"		"r295"
+		"xpos"		"c-25"
 		"ypos"		"60"	[$WIN32]
 		"zpos"		"4"
 		"wide"		"50"
@@ -190,7 +190,7 @@
 		"font"			"roboto26"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"West"
-		"xpos"			"r505"
+		"xpos"			"c-230"
 		"ypos"			"65" 
 		"zpos"			"4"
 		"wide"			"100"
@@ -218,7 +218,7 @@
 		"font"			"roboto14"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"Center"
-		"xpos"			"r450"
+		"xpos"			"c-180"
 		"ypos"			"70"
 		"wide"			"100"
 		"tall"			"29"
@@ -239,7 +239,7 @@
 		"font"			"roboto26"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"West"
-		"xpos"			"r230"
+		"xpos"			"c40"
 		"ypos"			"65"
 		"wide"			"200"
 		"tall"			"30"
@@ -260,7 +260,7 @@
 		"font"			"roboto26"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"East"
-		"xpos"			"r135"
+		"xpos"			"c130"
 		"ypos"			"65" 
 		"zpos"			"4"
 		"wide"			"100"
@@ -288,7 +288,7 @@
 		"font"			"roboto14"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"Center"
-		"xpos"			"r180"
+		"xpos"			"c80"
 		"ypos"			"70"
 		"wide"			"100"
 		"tall"			"29"
@@ -306,12 +306,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"roboto10"
+		"font"			"robotoreg10"
 		"fgcolor"		"255 255 255 255"
 		"labelText"		"%server%"
 		"textAlignment"		"center"
-		"xpos"			"r650"
-		"ypos"			"285"
+		"xpos"			"c-380"
+		"ypos"			"295"
 		"zpos"			"5"
 		"wide"			"130"
 		"tall"			"20"
@@ -330,12 +330,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"roboto10"
+		"font"			"robotoreg10"
 		"fgcolor"		"255 255 255 255"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
-		"xpos"			"r650"
-		"ypos"			"295"
+		"xpos"			"c-380"
+		"ypos"			"305"
 		"zpos"			"5"
 		"wide"			"130"
 		"tall"			"20"
@@ -353,11 +353,11 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"r510"
+		"xpos"			"c-240"
 		"ypos"			"90"
 		"zpos"			"20"
 		"wide"			"240"
-		"tall"			"230"	[$WIN32]
+		"tall"			"228"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -375,11 +375,11 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"r270"
+		"xpos"			"c0"
 		"ypos"			"90"
 		"zpos"			"20"
 		"wide"			"240"
-		"tall"			"230"	[$WIN32]
+		"tall"			"228"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -408,11 +408,11 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"textinsetx"		"20"
-		"xpos"			"c-320"
-		"ypos"			"r55"	[$WIN32]
+		"xpos"			"c-240"
+		"ypos"			"c80"
 		"zpos"			"4"
-		"wide"			"320"
-		"tall"			"20"
+		"wide"			"480"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -445,7 +445,26 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}		
+
+	"MapName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"mapname"
+		"font"			"roboto12"
+		"labelText"		"%mapname%"
+		"textAlignment"		"center"
+		"xpos"			"c-380"
+		"ypos"			"90"	[$WIN32]
+		"zpos"			"4"
+		"wide"			"130"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"236 227 203 255"
+	}		
 
 	"ClassImage"
 	{
@@ -483,7 +502,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
-		"xpos"			"r650"
+		"xpos"			"c-380"
 		"ypos"			"90"
 		"zpos"			"3"
 		"wide"			"f0"
@@ -1033,16 +1052,7 @@
 			"font"			"roboto12"
 			"labelText"		"%mapname%"
 			"textAlignment"		"West"
-			"xpos"			"5"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"130"
-			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"255 255 255 255"
+			"xpos"			"999999"
 		}	
 		"GameType"
 		{

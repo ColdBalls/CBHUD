@@ -70,7 +70,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"roboto20"
+		"font"			"roboto21"
 		"fgcolor"		"CBAmmoReserveNormal"
 		"xpos"			"70"
 		"ypos"			"25"
@@ -86,7 +86,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"roboto20"
+		"font"			"roboto21"
 		"fgcolor"		"CBDropShadow"
 		"xpos"			"72"
 		"ypos"			"27"

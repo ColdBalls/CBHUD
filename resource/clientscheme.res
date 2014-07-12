@@ -53,6 +53,11 @@ Scheme
 		"CBUberNormal"	"255 255 255 255"
 		"CBUberFull"			"0 185 255 255"
 		
+		//stuff from goat_hud for winpanel
+		
+		"OmpText"			"255 255 255 255"
+		"OmpDarkBG"		"30 30 30 225"
+		
 		
 		
 		//////////	End of CBhud Colors	//////////////

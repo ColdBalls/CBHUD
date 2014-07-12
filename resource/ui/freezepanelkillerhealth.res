@@ -67,7 +67,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
-		"font"			"roboto20"
+		"font"			"roboto18"
 		"fgcolor"		"255 255 255 255"
 		"labeltext"		"%Health%"
 	}								

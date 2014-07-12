@@ -1,7 +1,7 @@
 "Resource/HudLayout.res"
 {
 
-fogCrosshair
+	fogCrosshair
 	{
 		"controlname"	"CExLabel"
 		"fieldname"	"fogCrosshair"
@@ -120,7 +120,7 @@ fogCrosshair
 		"controlName"	"CExLabel"
 		"fieldName"	 	"KonrWings"
 		
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"2"
 
@@ -1198,10 +1198,10 @@ fogCrosshair
         "fieldName"             "WinPanel"
         "visible"               "1"
         "enabled"               "1"
-        "xpos"                  "0"
-        "ypos"                  "0"
+        "xpos"                  "c-360"
+        "ypos"                  "r132"
         "wide"                  "f0"
-        "tall"                  "480"
+        "tall"                  "132"
 	}
 
 	ArenaWinPanel
