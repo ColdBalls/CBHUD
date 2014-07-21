@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	            "ya_MenuBG"
+		"infocus_bgcolor_override"      "ya_MenuBG"
+		"outoffocus_bgcolor_override"   "ya_MenuBG"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -106,7 +106,7 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-300"
+		"xpos"			"99999" //c-300, removed
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"20"
@@ -121,14 +121,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"roboto28"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"240"
-		"tall"			"25"
+		"tall"			"30"
+		"fgcolor_override" "255 255 255 255"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -426,8 +427,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
-		"xpos"			"c-84"
-		"ypos"			"c-180"
+		"xpos"			"c212"
+		"ypos"			"c-230"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -443,6 +444,18 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
+		"defaultBgColor_override"	"255 255 255 255"
+		"armedBgColor_override"		"MainMenuArmedBG2"
+		"depressedBgColor_override"	"MainMenuArmedBG"
+		
+		"defaultFgColor_override" 	"0 0 0 255"
+		"armedFgColor_override" 	"0 0 0 255"
+		"depressedFgColor_override" 	"0 0 0 255"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
+		
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -464,8 +477,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TauntLoadoutButton"
 		"labelText"		""
-		"xpos"			"c55"
-		"ypos"			"c-180"
+		"xpos"			"c239"
+		"ypos"			"c-230"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -480,7 +493,18 @@
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
+		
+		"defaultBgColor_override"	"255 255 255 255"
+		"armedBgColor_override"		"MainMenuArmedBG2"
+		"depressedBgColor_override"	"MainMenuArmedBG"
+		
+		"defaultFgColor_override" 	"0 0 0 255"
+		"armedFgColor_override" 	"0 0 0 255"
+		"depressedFgColor_override" 	"0 0 0 255"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+	
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

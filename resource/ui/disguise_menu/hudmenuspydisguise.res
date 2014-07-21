@@ -82,7 +82,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"57 53 52 170"
+		"fillcolor"		"30 30 30 200"
 		"scaleImage"		"1"
 	}		
 	

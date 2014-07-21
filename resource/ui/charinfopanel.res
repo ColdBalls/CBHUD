@@ -44,73 +44,139 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}				
+	}			
+
+	"BackgroundHeaderCustom"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundHeader2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"2"
+		"border"				"NoBorder"
+		"bgcolor_override"		"ya_MenuFrame"
+	}
+	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"1"
+		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}				
-	"FooterLine"
+	}	
+
+	"BackgroundFooterCustom"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"FooterLine"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundFooter2"
 		"xpos"			"0"
-		"ypos"			"420"
+		"ypos"			"420"       //"420"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"10"
+		"tall"			"62"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
-		"scaleImage"	"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"2"
+		"border"				"NoBorder"
+		"bgcolor_override"		"ya_MenuFrame"
+	}	
+	
+	"FooterLine"
+	{
+		"ControlName"	"EditablePanel"
+			"fieldName"		"FooterLine"
+			"xpos"			"0"
+			"ypos"			"430"
+			"zpos"			"7"
+			"wide"			"f0"
+			"tall"			"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"pinCorner"		"0"
+			"autoResize"	"0"
+			"PaintBackgroundType"	"2"
+			"border"				"NoBorder"
+			"bgcolor_override"		"ya_MenuFrame"
 	}				
 	
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"80"
-		"tabxdelta"		"10"
-		"tabwidth"		"240"
+		"tabxindent"	"12"
+        "tabyindent"	"-10"
+		"tabxdelta"		"0"
+		"tabwidth"		"200"
 		"tabheight"		"34"
 		"transition_time" "0"
 		
 		"HeaderLine"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"32"
-			"zpos"			"5"
+			"ypos"			"33"
+			"zpos"			"7"
 			"wide"			"f0"
-			"tall"			"10"
+			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
-			"scaleImage"	"1"
-		}				
+			"pinCorner"		"0"
+			"autoResize"	"0"
+			"PaintBackgroundType"	"2"
+			"border"				"NoBorder"
+			"bgcolor_override"		"ya_MenuFrame"
+		}					
 		
 		"tabskv"
 		{
-			"textinsetx"		"40"
-			"font"				"HudFontMediumBold"
-			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"46 43 42 255"
+			"textinsetx"		"5"
+            "textinsety"		"0"
+			"font"				"roboto24"
+			"selectedcolor"		            "ya_MenuHi"
+			"unselectedcolor"	            "ya_MenuLo"	
 			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
+			
+			"activeborder_override"	        "NoBorder"
+			"normalborder_override"         "NoBorder"
+			"defaultBgColor_override"		"ya_MenuFrame"
+            "armedBgColor_override"		    "ya_MenuFrame"
+            "SelectedBgColor_override"      "ya_MenuFrame"
+			"unselectedBgColor_override"	"ya_MenuFrame"
+			"depressedBgColor_override"		"ya_MenuFrame"
 		}
 	}
+	
+		"BackbuttonBG1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackbuttonBG1"
+		"xpos"			"c-300"
+		"ypos"			"432"
+		"zpos"			"2"
+		"wide"			"110"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"25 25 25 255"
+	}	
 	
 	"BackButton"
 	{
@@ -118,7 +184,7 @@
 		"fieldName"		"BackButton"
 		"xpos"			"c-295"
 		"ypos"			"437"
-		"zpos"			"2"
+		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -135,6 +201,17 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override" 	"255 255 255 255"
+		"armedBgColor_override" 	"MainMenuArmedBG2"
+		"depressedBgColor_override" 	"255 255 255 255"
+	
+		"defaultFgColor_override" 	"0 0 0 255"
+		"armedFgColor_override" 	"0 0 0 255"
+		"depressedFgColor_override" 	"0 0 0 255"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}		
 	
 	"NotificationsPresentPanel"

@@ -315,6 +315,23 @@
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"		"HudOffWhite"
 		}	
+		
+		"FreezePanelHealthBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"FreezePanelHealthBG"
+			"xpos"			"3"
+			"ypos"			"9"
+			"zpos"			"0"
+			"wide"			"27"
+			"tall"				"14"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"18 18 18 255"
+			"scaleImage"		"1"
+		}	
 
 		"FreezeLabelKiller"
 		{	

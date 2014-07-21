@@ -24,26 +24,26 @@ Scheme
 		//////////	Health Colors	/////////////
 		
 		"CBHealthNormal"	"255 255 255 255"
-		"CBHealthOverheal"	"0 185 255 255"	
-		"CBHealthLow"	"255 70 40 255"
-		"CBHealthPickup"	"0 185 255 255"
+		"CBHealthOverheal"	"11 150 224 255"	 //old value: 0 185 255 255
+		"CBHealthLow"	"224 30 115 255"
+		"CBHealthPickup"	"11 150 224 255" //old value: 0 185 255 255
 		
 		/////////	Ammo Colors	/////////////
 		
 		"CBAmmoClipNormal"	"255 255 255 255"
-		"CBAmmoClipLow"		"255 0 0 255"
+		"CBAmmoClipLow"		"224 30 115 255"
 		//
-		"CBAmmoReserveNormal"	"0 204 255 255"
-		"CBAmmoReserveLow"		"255 0 0 255"
+		"CBAmmoReserveNormal"	"11 150 224 255"
+		"CBAmmoReserveLow"		"224 30 115 255"
 		//
 		"CBAmmoNoClipNormal"	"255 255 255 255"
-		"CBAmmoNoClipLow"	"255 0 0 255"
+		"CBAmmoNoClipLow"	"224 30 115 255"
 		
 		/////////	Freezepanel colors	/////////////
 		
 		"CBFreezePanelHealthNormal"	"255 255 255 255"	
-		"CBFreezePanelHealthOverheal"	"0 185 255 255"	
-		"CBFreezePanelHealthLow"		"255 70 40 255"		
+		"CBFreezePanelHealthOverheal"	"11 150 224 255"	
+		"CBFreezePanelHealthLow"		"224 30 115 255"		
 		
 		
 		/////////// Rest	/////////////
@@ -51,12 +51,32 @@ Scheme
 		"CBDropShadow"	"0 0 0 255"
 		
 		"CBUberNormal"	"255 255 255 255"
-		"CBUberFull"			"0 185 255 255"
+		"CBUberFull"			"11 150 224 255"
+		
+		"MainMenuArmedBG"	"11 150 224 255" //old value: "0 204 255 255"
+		"MainMenuArmedBG2"	"224 30 115 255"
 		
 		//stuff from goat_hud for winpanel
 		
 		"OmpText"			"255 255 255 255"
 		"OmpDarkBG"		"30 30 30 225"
+		
+		//stuff from ya_hud for menu
+
+        "ya_MenuFrame"             "18 18 18 255"			//
+        "ya_MenuBG"                "31 31 31 255"			//
+        "ya_MenuHi"                "11 150 224 255"		//Selcted Tab
+        "ya_MenuLo"                "227 227 227 255"			//
+        
+        "FieldBG"               "25 25 25 255"          //Backpack item bg
+        
+        "ButtonBG"              "227 227 227 0"       //Standard button color
+        "ButtonBGArmed"         "227 227 227 0"       //Armed BG color
+        "ButtonBGSelect"        "18 18 18 0"          //Loadout preset
+        
+        "ButtonFont"            "227 227 227 255"          //Font color
+        "ButtonFontArmed"       "224 11 115 255"       //Highlighted font color
+        "ButtonFontSelect"      "11 150 224 255"       //Highlighted font color
 		
 		
 		
@@ -652,6 +672,18 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		
+        "SymbolS"		//Main menu icons
+        {
+            "1"
+            {
+                "name"            "Entypo"
+                "tall"        "30"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+		
 		"roboto8"
 		{
 			"1"
@@ -2926,6 +2958,48 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+	
+		CBBorderWhite
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -4455,5 +4529,10 @@ Scheme
 			"font" "resource/Blocks.ttf"
 			"name" "Blocks"
 		}
+        "16"
+        {
+            "font" "resource/Entypo.otf"
+            "name" "Entypo"
+        }
 	}
 }

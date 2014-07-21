@@ -76,6 +76,18 @@
 		"label" "         Adv. options"
 		"command" "opentf2options"
 		"subimage" "glyph_options"
+	}	
+	"ToggleScoreboard"
+	{
+		"label" "n"   
+		"command" "engine toggle cl_hud_minmode"
+		"tooltip" "Toggle scoreboard"
+	}	
+	"OpenConsole"
+	{
+		"label" "l"   
+		"command" "engine con_enable 1;toggleconsole"
+		"tooltip" "Open console"
 	}
 	"SteamWorkshopButton"
 	{
@@ -145,4 +157,7 @@
 		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
 	}
+
+
+	
 }

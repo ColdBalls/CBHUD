@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"-44"
+		"xpos"			"99999"
 		"ypos"			"9"
 		"zpos"			"3"
 		"wide"			"120"
@@ -14,34 +14,7 @@
 		"scaleImage"	"1"	
 
 	}	
-	"BG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BG"
-		"xpos"			"0"
-		"ypos"			"9"
-		"zpos"			"4"
-		"wide"			"28"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"30 30 30 255"
-		"scaleImage"	"1"	
-	}		
-	"BG1"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BG1"
-		"xpos"			"0"
-		"ypos"			"9"
-		"zpos"			"2"
-		"wide"			"120"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"30 30 30 255"
-		"scaleImage"	"1"	
-	}	
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -74,7 +47,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"-44"
+		"xpos"			"99999"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"120"
@@ -88,15 +61,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
-		"xpos"			"-1"
-		"ypos"			"9"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"28"
-		"tall"			"20"
+		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"roboto18"
+		"font"			"roboto21"
 		"fgcolor"		"255 255 255 255"
 		"labeltext"		"%Health%"
 	}
@@ -104,16 +77,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpecShadow"
-		"xpos"			"99999"
-		"ypos"			"999999"
+		"xpos"			"1"
+		"ypos"			"1"
 		"zpos"			"6"
-		"wide"			"31"
-		"tall"			"30"
+		"wide"			"28"
+		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"roboto16"
-		"fgcolor"		"30 30 30 255"
+		"font"			"roboto21"
+		"fgcolor"		"0 0 0 255"
 		"labeltext"		"%Health%"
 	}
 	"PlayerStatusPlayerLevel"

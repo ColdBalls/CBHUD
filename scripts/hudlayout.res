@@ -6,10 +6,10 @@
 		"controlname"	"CExLabel"
 		"fieldname"	"fogCrosshair"
 		
-		"visible"	"0"
+		"visible"	"1"
 		"enabled"	"1"
 
-		"xpos"		"-3"
+		"xpos"		"-2"
 		"ypos"		"2"
 		"zpos"		"2"
 		
@@ -414,6 +414,7 @@
 		"enabled" "1"
 		"xpos"	"0"
 		"ypos"	"0"
+		"zpos"	"-1"
 		"wide"	"f0"
 		"tall"	"480"
 	}	
@@ -604,10 +605,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-230"	[$WIN32]
-		"ypos"		"c130"	[$WIN32]
-		"wide"		"500"
-		"tall"		"200"
+		"xpos"		"c-300"	[$WIN32]
+		"ypos"		"c110"	[$WIN32]
+		"wide"		"300"
+		"tall"		"39"
 	}
 
 	CMainTargetID
@@ -616,7 +617,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"      "c-126"
-		"ypos"		"c56"
+		"ypos"		"c67"
 		"wide"	 	"252"
 		"tall"	 	"40"
 		"priority"	"40"
@@ -640,7 +641,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c25"
+		"ypos"		"c40"
 		
 		"wide"	 	"252"
 		"tall"	 	"35"

@@ -84,7 +84,7 @@
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"31"
 		"ypos"			"20"
-		"zpos"			"2"
+		"zpos"			"0"
 		"wide"			"30"	[$WIN32]
 		"tall"			"30"	[$WIN32]
 		"visible"		"0"
@@ -113,8 +113,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueDropShadow"
-		"xpos"			"70"
-		"ypos"			"27"	[$WIN32]
+		"xpos"			"69"
+		"ypos"			"26"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"

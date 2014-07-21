@@ -23,17 +23,33 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"roboto16"
+			"font"			"roboto18"
 			"fgcolor"		"255 255 255 255"
-			"xpos"			"c-20"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"40"
-			"tall"			"20"
+			"xpos"			"c-25"
+			"ypos"			"5"
+			"zpos"			"4"
+			"wide"			"50"
+			"tall"				"22"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
-		}	
+		}
+		"TimePanelValueBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"TimePanelValueBG"
+			"xpos"			"c-25"
+			"ypos"			"5"
+			"zpos"			"-10"
+			"wide"			"50"
+			"tall"				"21"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"18 18 18 200"
+			"scaleImage"		"1"
+		}			
 	}
 }

@@ -209,9 +209,10 @@ event HudHealthBonusPulse
 	
 	
 	Animate	PlayerStatusHealthValue				FgColor		"CBHealthOverheal"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec				FgColor		"CBHealthOverheal"		Accel 0.0 0.0
 	Animate 	PlayerStatusHealthValueFreezePanel 	FgColor 	"CBFreezePanelHealthOverheal"		Accel 0.0 0.0
-
-
+	
+	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -227,6 +228,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
 	Animate PlayerStatusHealthValue FgColor "CBHealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpec FgColor "CBHealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel FgColor "CBFreezePanelHealthNormal" Accel 0.0 0.0
 }
 
@@ -239,6 +241,7 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"150"			Linear 0.125 0.075
 	
 	Animate PlayerStatusHealthValue 		 FgColor "CBHealthLow" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpec 		 FgColor "CBHealthLow" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel FgColor "CBFreezePanelHealthLow" 	Accel 0.0 0.0
 
 
@@ -258,6 +261,7 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
 	Animate PlayerStatusHealthValue FgColor "CBHealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpec FgColor "CBHealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel FgColor "CBFreezePanelHealthNormal" Accel 0.0 0.0
 }
 
@@ -269,9 +273,9 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 	
 	
-	//Animate	AmmoInClip					FgColor		"CBAmmoClipLow"		Accel 0.0 0.0
+	Animate	AmmoInClip					FgColor		"CBAmmoClipLow"		Accel 0.0 0.0
 	
-	Animate	AmmoInReserve					FgColor		"CBAmmoReserveLow"			Accel 0.0 0.0
+	//Animate	AmmoInReserve			FgColor		"CBAmmoReserveLow"			Accel 0.0 0.0
 
 	Animate	AmmoNoClip					FgColor		"CBAmmoNoClipLow"		Accel 0.0 0.0	
 	
