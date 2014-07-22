@@ -671,6 +671,16 @@ Scheme
 				"antialias"	"1"
 				"outline"	"1"
 			}
+		}	
+		"DamageFontSmallNoOutline"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"17"
+				"antialias"	"1"
+				"outline"	"0"
+			}
 		}
 		
         "SymbolS"		//Main menu icons
