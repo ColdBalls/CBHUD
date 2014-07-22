@@ -224,7 +224,7 @@
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"roboto8"
 			"xpos"			"0"
-			"ypos"			"27"
+			"ypos"			"22"
 			"zpos"			"1"
 			"wide"			"640"
 			"tall"			"9"
