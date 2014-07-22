@@ -606,9 +606,9 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"c-300"	[$WIN32]
-		"ypos"		"c110"	[$WIN32]
+		"ypos"		"c90"	[$WIN32]
 		"wide"		"300"
-		"tall"		"39"
+		"tall"		"90"
 	}
 
 	CMainTargetID
