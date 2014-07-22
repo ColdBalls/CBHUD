@@ -15,22 +15,7 @@
 		"tabPosition"	"0"
 	}
 	
-	"DispenserStatusBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"DispenserStatusBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"120"
-		"tall"				"31"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"57 53 52 200"
-		"scaleImage"		"1"
-	}	
+
 	
 
 	
@@ -104,7 +89,25 @@
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"0"
-		
+	
+		"DispenserStatusBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"DispenserStatusBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-2"
+			"wide"			"120"
+			"tall"				"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"18 18 18 200"
+			"scaleImage"		"1"
+		}	
+
+	
 		"DispenserStatusDarkBorder1"
 		{
 			"ControlName"		"ImagePanel"

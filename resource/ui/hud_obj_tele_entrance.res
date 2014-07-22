@@ -15,22 +15,7 @@
 		"tabPosition"	"0"
 	}
 	
-	"ExitStatusBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ExitStatusBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"120"
-		"tall"				"31"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"57 53 52 200"
-		"scaleImage"		"1"
-	}	
+
 	
 
 	
@@ -105,7 +90,24 @@
 		"tall"			"31"
 		"visible"		"0"
 
-		"ExitStatusDarkBorder1"
+		"EntranceStatusBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"EntranceStatusBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-2"
+			"wide"			"120"
+			"tall"				"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"18 18 18 200"
+			"scaleImage"		"1"
+		}	
+		
+		"EntranceStatusDarkBorder1"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"SentryStatusDarkBorder1"
@@ -122,10 +124,10 @@
 			"scaleImage"		"1"
 		}		
 		
-		"ExitStatusDarkBorder2"
+		"EntranceStatusDarkBorder2"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"		"ExitStatusDarkBorder2"
+			"fieldName"		"EntranceStatusDarkBorder2"
 			"xpos"			"0"
 			"ypos"			"28"
 			"zpos"			"1"
@@ -139,10 +141,10 @@
 			"scaleImage"		"1"
 		}	
 		
-		"ExitStatusDarkBorder3"
+		"EntranceStatusDarkBorder3"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"		"ExitStatusDarkBorder3"
+			"fieldName"		"EntranceStatusDarkBorder3"
 			"xpos"			"0"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -156,10 +158,10 @@
 			"scaleImage"		"1"
 		}		
 		
-		"ExitStatusDarkBorder4"
+		"EntranceStatusDarkBorder4"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"		"ExitStatusDarkBorder4"
+			"fieldName"		"EntranceStatusDarkBorder4"
 			"xpos"			"118"
 			"ypos"			"3"
 			"zpos"			"1"

@@ -15,22 +15,7 @@
 		"tabPosition"	"0"
 	}
 	
-	"SentryStatusBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"SentryStatusBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"120"
-		"tall"				"60"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"57 53 52 200"
-		"scaleImage"		"1"
-	}		
+	
 	
 	"Background"
 	{
@@ -110,6 +95,7 @@
 			"font"			"DefaultVerySmall"
 			"xpos"			"60"
 			"ypos"			"0"
+			"font"			"roboto10"
 			"wide"			"200"
 			"tall"			"60"
 			"autoResize"	"0"
@@ -133,6 +119,24 @@
 		"wide"			"160"
 		"tall"			"60"
 		"visible"		"0"
+		
+		"SentryStatusBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"SentryStatusBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-2"
+			"wide"			"120"
+			"tall"				"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"18 18 18 200"
+			"scaleImage"		"1"
+		}	
+		
 		
 		"SentryStatusDarkBorder1"
 		{
