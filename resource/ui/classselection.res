@@ -14,77 +14,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"65 64 61 255"
+		"fillcolor"		"18 18 18 200"
 		"scaleImage"		"1"
 	}	
 	
-	"DarkBorder1"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"DarkBorder1"
-		"xpos"			"c-110"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"220"
-		"tall"				"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"32 31 33 255"
-		"scaleImage"		"1"
-	}		
-	
-	"DarkBorder2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"DarkBorder2"
-		"xpos"			"c-110"
-		"ypos"			"r10"
-		"zpos"			"3"
-		"wide"			"220"
-		"tall"				"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"32 31 33 255"
-		"scaleImage"		"1"
-	}		
-	
-	"DarkBorder3"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"DarkBorder3"
-		"xpos"			"c-110"
-		"ypos"			"10"
-		"zpos"			"3"
-		"wide"			"10"
-		"tall"				"460"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"32 31 33 255"
-		"scaleImage"		"1"
-	}	
-	
-	"DarkBorder4"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"DarkBorder4"
-		"xpos"			"c100"
-		"ypos"			"10"
-		"zpos"			"3"
-		"wide"			"10"
-		"tall"				"460"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"32 31 33 255"
-		"scaleImage"		"1"
-	}	
 	
 	"class"
 	{
