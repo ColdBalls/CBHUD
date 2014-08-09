@@ -337,27 +337,7 @@
 		"fgcolor_override" "200 230 255 255"
 	}	
 
-	"Background_custom"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"Background_Custom"
-		"xpos"		"0"
-		"ypos"		"r230"
-		"zpos"		"220"
-		"wide"		"230"
-		"tall"		"115"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/gifblahpink"
-		
-		"src_corner_height"	"0"
-		"src_corner_width"	"0"
-		"draw_corner_width"	"0"	
-		"draw_corner_height" "0"	
-		"scaleImage"		"1"
-	}
+
 	
 	"StatData"
 	{
