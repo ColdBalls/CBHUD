@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"iconScout"
-		"xpos"			"c-85"
+		"xpos"			"c-280"
 		"ypos"			"c-170"
 		"zpos"			"5"
 		"wide"			"30"
@@ -26,7 +26,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"iconSoldier"
-		"xpos"			"c-85"
+		"xpos"			"c-280"
 		"ypos"			"c-135"
 		"zpos"			"5"
 		"wide"			"30"
@@ -47,7 +47,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"iconPyro"
-		"xpos"			"c-85"
+		"xpos"			"c-280"
 		"ypos"			"c-100"
 		"zpos"			"5"
 		"wide"			"30"
@@ -129,7 +129,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"iconMedic"
-		"xpos"			"c-85"
+		"xpos"			"c110"
 		"ypos"			"c70"
 		"zpos"			"5"
 		"wide"			"30"
@@ -150,7 +150,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"iconSniper"
-		"xpos"			"c-85"
+		"xpos"			"c110"
 		"ypos"			"c105"
 		"zpos"			"5"
 		"wide"			"30"
@@ -171,7 +171,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"iconSpy"
-		"xpos"			"c-85"
+		"xpos"			"c110"
 		"ypos"			"c140"
 		"zpos"			"5"
 		"wide"			"30"
@@ -193,7 +193,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"iconBGscout"
-		"xpos"			"c-85"
+		"xpos"			"c-280"
 		"ypos"			"c-170"
 		"zpos"			"0"
 		"wide"			"30"
@@ -208,7 +208,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"iconBGsoldier"
-		"xpos"			"c-85"
+		"xpos"			"c-280"
 		"ypos"			"c-135"
 		"zpos"			"0"
 		"wide"			"30"
@@ -222,7 +222,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"iconBGpyro"
-		"xpos"			"c-85"
+		"xpos"			"c-280"
 		"ypos"			"c-100"
 		"zpos"			"0"
 		"wide"			"30"
@@ -282,7 +282,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"iconBGmedic"
-		"xpos"			"c-85"
+		"xpos"			"c110"
 		"ypos"			"c70"
 		"zpos"			"0"
 		"wide"			"30"
@@ -297,7 +297,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"iconBGsniper"
-		"xpos"			"c-85"
+		"xpos"			"c110"
 		"ypos"			"c105"
 		"zpos"			"0"
 		"wide"			"30"
@@ -312,7 +312,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"iconBGspy"
-		"xpos"			"c-85"
+		"xpos"			"c110"
 		"ypos"			"c140"
 		"zpos"			"0"
 		"wide"			"30"
@@ -328,7 +328,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NumberBGscout"
-		"xpos"			"c55"
+		"xpos"			"c-140"
 		"ypos"			"c-170"
 		"zpos"			"0"
 		"wide"			"30"
@@ -343,7 +343,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NumberBGsoldier"
-		"xpos"			"c55"
+		"xpos"			"c-140"
 		"ypos"			"c-135"
 		"zpos"			"0"
 		"wide"			"30"
@@ -358,7 +358,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NumberBGpyro"
-		"xpos"			"c55"
+		"xpos"			"c-140"
 		"ypos"			"c-100"
 		"zpos"			"0"
 		"wide"			"30"
@@ -418,7 +418,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NumberBGmedic"
-		"xpos"			"c55"
+		"xpos"			"c250"
 		"ypos"			"c70"
 		"zpos"			"0"
 		"wide"			"30"
@@ -433,7 +433,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NumberBGsniper"
-		"xpos"			"c55"
+		"xpos"			"c250"
 		"ypos"			"c105"
 		"zpos"			"0"
 		"wide"			"30"
@@ -448,7 +448,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NumberBGspy"
-		"xpos"			"c55"
+		"xpos"			"c250"
 		"ypos"			"c140"
 		"zpos"			"0"
 		"wide"			"30"
@@ -464,7 +464,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassSelectionBG1"
-		"xpos"			"c-90"
+		"xpos"			"c-285"
 		"ypos"			"c-175"
 		"zpos"			"-1"
 		"wide"			"180"
@@ -494,7 +494,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassSelectionBG3"
-		"xpos"			"c-90"
+		"xpos"			"c105"
 		"ypos"			"c65"
 		"zpos"			"-1"
 		"wide"			"180"
@@ -509,7 +509,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassSelectionBG4"
-		"xpos"			"c105"
+		"xpos"			"c-55"
 		"ypos"			"c100"
 		"zpos"			"-1"
 		"wide"			"110"
@@ -1402,7 +1402,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numScout"
-		"xpos"			"c55"
+		"xpos"			"c-140"
 		"ypos"			"c-170"
 		"zpos"			"5"
 		"wide"			"30"
@@ -1423,7 +1423,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numSoldier"
-		"xpos"			"c55"
+		"xpos"			"c-140"
 		"ypos"			"c-135"
 		"zpos"			"5"
 		"wide"			"30"
@@ -1444,7 +1444,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numPyro"
-		"xpos"			"c55"
+		"xpos"			"c-140"
 		"ypos"			"c-100"
 		"zpos"			"5"
 		"wide"			"30"
@@ -1528,7 +1528,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numMedic"
-		"xpos"			"c55"
+		"xpos"			"c250"
 		"ypos"			"c70"
 		"zpos"			"5"
 		"wide"			"30"
@@ -1549,7 +1549,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numSniper"
-		"xpos"			"c55"
+		"xpos"			"c250"
 		"ypos"			"c105"
 		"zpos"			"5"
 		"wide"			"30"
@@ -1570,7 +1570,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numSpy"
-		"xpos"			"c55"
+		"xpos"			"c250"
 		"ypos"			"c140"
 		"zpos"			"5"
 		"wide"			"30"
@@ -1835,7 +1835,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CBScout"
-		"xpos"			"c-50"
+		"xpos"			"c-245"
 		"ypos"			"c-170"
 		"zpos"			"30"
 		"wide"			"100"
@@ -1897,7 +1897,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CBSoldier"
-		"xpos"			"c-50"
+		"xpos"			"c-245"
 		"ypos"			"c-135"
 		"zpos"			"30"
 		"wide"			"100"
@@ -1956,7 +1956,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CBPyro"
-		"xpos"			"c-50"
+		"xpos"			"c-245"
 		"ypos"			"c-100"
 		"zpos"			"30"
 		"wide"			"100"
@@ -2193,7 +2193,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CBMedic"
-		"xpos"			"c-50"
+		"xpos"			"c145"
 		"ypos"			"c70"
 		"zpos"			"30"
 		"wide"			"100"
@@ -2252,7 +2252,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CBSniper"
-		"xpos"			"c-50"
+		"xpos"			"c145"
 		"ypos"			"c105"
 		"zpos"			"30"
 		"wide"			"100"
@@ -2311,7 +2311,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CBSpy"
-		"xpos"			"c-50"
+		"xpos"			"c145"
 		"ypos"			"c140"
 		"zpos"			"30"
 		"wide"			"100"
@@ -2370,7 +2370,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CBRandom"
-		"xpos"			"c110"
+		"xpos"			"c-50"
 		"ypos"			"c105"
 		"zpos"			"30"
 		"wide"			"100"
@@ -2429,7 +2429,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CBLoadout"
-		"xpos"			"c110"
+		"xpos"			"c-50"
 		"ypos"			"c140"
 		"zpos"			"30"
 		"wide"			"100"

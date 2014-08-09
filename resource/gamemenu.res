@@ -82,6 +82,11 @@
 		"label" "n"   
 		"command" "engine toggle cl_hud_minmode"
 		"tooltip" "Toggle scoreboard"
+	}		
+	"ShowNewsStuffButton"
+	{
+		"label" "%"   
+		"command" "motd_show"
 	}	
 	"OpenConsole"
 	{

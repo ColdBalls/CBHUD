@@ -112,7 +112,7 @@
 		"labelText"		"i"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"255 255 255 80"
 	}
 	
 	KonrWings
@@ -191,7 +191,7 @@
 		"enabled"			"1"
 		
 		"xpos"				"-2"
-		"ypos"				"0"
+		"ypos"				"2"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"f0"
@@ -566,8 +566,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c70"	[$WIN32]
-		"ypos"					"c0"	[$WIN32]
+		"xpos"					"c-58"	[$WIN32]
+		"ypos"					"c-20"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -618,6 +618,8 @@
 		"enabled" 	"1"
 		"xpos"      "c-126"
 		"ypos"		"c67"
+		"zpos"		"22"
+		
 		"wide"	 	"252"
 		"tall"	 	"40"
 		"priority"	"40"
@@ -642,6 +644,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"c40"
+		"zpos"		"22"
 		
 		"wide"	 	"252"
 		"tall"	 	"35"
@@ -1590,7 +1593,7 @@
 		"fieldName"				"ItemQuickSwitchPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"			"c-125"
+		"xpos"			"r250"
 		"ypos"			"280"
 		"wide"			"250"
 		"tall"			"160"

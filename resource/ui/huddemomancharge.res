@@ -17,6 +17,9 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		
+		"bgcolor_override" "CBChargemeterBG"
+		"fgcolor_override" "CBChargemeterFG"			
 	}		
 	"ItemEffectMeterLabel"
 	{

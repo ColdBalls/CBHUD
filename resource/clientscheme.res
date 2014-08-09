@@ -53,6 +53,9 @@ Scheme
 		"CBUberNormal"	"255 255 255 255"
 		"CBUberFull"			"11 150 224 255"
 		
+		"CBChargemeterBG"	"57 53 52 200"
+		"CBChargeMeterFG"	"255 255 255 255"
+		
 		"MainMenuArmedBG"	"11 150 224 255" //old value: "0 204 255 255"
 		"MainMenuArmedBG2"	"224 30 115 255"
 		
@@ -692,6 +695,16 @@ Scheme
                 "additive"    "0"
                 "antialias"     "1"
             }
+        }        
+		"SymbolSLarge"		//Large icon for motd_button
+        {
+            "1"
+            {
+                "name"            "Entypo"
+                "tall"        "50"
+                "additive"    "0"
+                "antialias"     "1"
+            }
         }
 		
 		"roboto8"
@@ -910,6 +923,157 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		"logo10"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"10"
+				"antialias"	"1"
+			}
+		}
+
+		"logo12"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"12"
+				"antialias"	"1"
+			}
+		}
+
+		"logo14"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"14"
+				"antialias"	"1"
+			}
+		}
+
+		"logo16"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"16"
+				"antialias"	"1"
+			}
+		}
+
+		"logo18"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"18"
+				"antialias"	"1"
+			}
+		}
+		"logo20"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"20"
+				"antialias"	"1"
+			}
+		}
+		"logo21"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"21"
+				"antialias"	"1"
+			}
+		}
+		"logo24"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"24"
+				"antialias"	"1"
+			}
+		}
+		"logo26"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"26"
+				"antialias"	"1"
+			}
+		}
+		"logo28"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"28"
+				"antialias"	"1"
+			}
+		}
+		"logo30"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"30"
+				"antialias"	"1"
+			}
+		}
+		"logo32"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"32"
+				"antialias"	"1"
+			}
+		}
+		"logo34"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"34"
+				"antialias"	"1"
+			}
+		}
+		"logo36"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"36"
+				"antialias"	"1"
+			}
+		}
+		"logo40"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"40"
+				"antialias"	"1"
+			}
+		}
+
+		"logo48"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}		
+		
 		"Blocks42"
 		{
 			"1"
@@ -4495,54 +4659,60 @@ Scheme
 		}
 		"7" 
 		{
-			"font" "resource/crosshairs.ttf"
+			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
 		}
 		"8" 
 		{
-			"font" "resource/RobotoCondensed-Bold.ttf"
+			"font" "resource/fonts/RobotoCondensed-Bold.ttf"
 			"name" "Roboto Condensed Bold"
 		}
 		"9" 
 		{
-			"font" "resource/RobotoCondensed-Regular.ttf"
+			"font" "resource/fonts/RobotoCondensed-Regular.ttf"
 			"name" "Roboto Condensed Regular"
 		}
 		"10" 
 		{
-			"font" "resource/FORMASGE.ttf"
+			"font" "resource/fonts/FORMASGE.ttf"
 			"name" "Formas germetricas 1"
 		}
 		"11" // Konr Wings
 		{
-			"font" "resource/Garm3nFont.ttf"
+			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
 		"12" 
 		{
-			"font" "resource/Paula.ttf"
+			"font" "resource/fonts/Paula.ttf"
 			"name" "Paula"
 		}
 		"13"
 		{
-		"font" "resource/crosshairsV3.ttf"
+		"font" "resource/fonts/crosshairsV3.ttf"
 		"name"	"CrosshairsV3"
 		}
 		"14" 
 		{
-			"font" "resource/symbol.ttf"
+			"font" "resource/fonts/symbol.ttf"
 			"name" "symbol"
 		}
 		"15" // Tournament HUD block
 		{
 		
-			"font" "resource/Blocks.ttf"
+			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
         "16"
         {
-            "font" "resource/Entypo.otf"
+            "font" "resource/fonts/Entypo.otf"
             "name" "Entypo"
         }
+		"17" 
+		{
+			"font" "resource/fonts/HudasIscariote.otf"
+			"name" "Hudas Iscariote"
+		}		
+		
 	}
 }

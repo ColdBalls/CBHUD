@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudItemEffectMeter_Pomson.res"
 {
 	HudItemEffectMeter
 	{
@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"9999"		
+		"xpos"			"9999"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -25,7 +25,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"c-30"
-		"ypos"					"c95"
+		"ypos"					"c115"
 		"zpos"					"2"
 		"wide"					"60"
 		"tall"					"6"
@@ -34,12 +34,12 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"roboto8"
-		"fgcolor_override"				"0 0 0 255"
+		"fgcolor_override"	"0 0 0 255"
 	}
 
 	"ItemEffectMeter"
@@ -48,7 +48,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"c-30"
-		"ypos"					"c96"
+		"ypos"					"c115"
 		"zpos"					"2"
 		"wide"					"60"
 		"tall"					"6"				
@@ -61,6 +61,6 @@
 		"brighttext"			"0"
 		
 		"bgcolor_override" "CBChargemeterBG"
-		"fgcolor_override" "CBChargemeterFG"			
+		"fgcolor_override" "CBChargemeterFG"	
 	}					
 }

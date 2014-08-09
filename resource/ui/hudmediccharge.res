@@ -4,17 +4,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"9999"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"130"
-		"tall"			"65"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/medic_charge_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/medic_charge_red_bg"
-		"teambg_3"		"../hud/medic_charge_blue_bg"				
+		"xpos"			"9999"	
 	}
 	
 	"ChargeLabel"
@@ -98,6 +88,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
+		
+		"bgcolor_override" "CBChargemeterBG"
+		"fgcolor_override" "CBUberNormal"		
+		
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}		

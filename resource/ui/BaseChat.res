@@ -7,10 +7,10 @@
 		"visible" 		        "1"
 		"enabled" 		        "1"
 		"xpos"			          "1"
-		"ypos"			          "25"		//around 150 for center
-		"wide"	 		          "242"
+		"ypos"			          "c0"		//around 150 for center
+		"wide"	 		          "232"
 		"tall"	 		          "120"
-		"fgcolor"		"Garm3nWhite"
+		"fgcolor"		"255 255 255 255"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -22,7 +22,7 @@
 		"enabled" 		        "1"
 		"xpos"			          "7"
 		"ypos"			          "395"
-		"wide"	 		          "228"
+		"wide"	 		          "218"
 		"tall"	 		          "2"
 		"PaintBackgroundType"	"0"
 	}
@@ -31,9 +31,9 @@
 	{
 		"ControlName"		      "Button"
 		"fieldName"		        "ChatFiltersButton"
-		"xpos"			          "208"
+		"xpos"			          "195"
 		"ypos"			          "0"
-		"wide"			          "27"
+		"wide"			          "30"
 		"tall"			          "8"
 		"autoResize"		      "1"
 		"pinCorner"		        "0"
@@ -53,7 +53,7 @@
 		"fieldName"		        "HudChatHistory"
 		"xpos"			          "7"
 		"ypos"			          "8"
-		"wide"	 		          "228"
+		"wide"	 		          "218"
 		"tall"			          "75"
 		"wrap"			          "1"
 		"autoResize"		      "1"

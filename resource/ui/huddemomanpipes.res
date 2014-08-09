@@ -58,14 +58,17 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		
+		"bgcolor_override" "CBChargemeterBG"
+		"fgcolor_override" "CBChargemeterFG"			
 	}				
 		
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"c70"
-		"ypos"			"c65"
+		"xpos"			"c-30"
+		"ypos"			"c20"
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"50"
@@ -152,7 +155,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"0"
+			"xpos"			"99999" // "0" removed
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"60"
@@ -172,7 +175,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"1"
+			"xpos"			"99999" // "0" removed
 			"ypos"			"1"
 			"zpos"			"2"
 			"wide"			"60"

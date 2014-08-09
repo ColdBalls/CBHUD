@@ -204,8 +204,8 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"100"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"100"			Linear 0.2 0.4
 	
 	
 	Animate	PlayerStatusHealthValue				FgColor		"CBHealthOverheal"		Accel 0.0 0.0
@@ -237,8 +237,8 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"150"			Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"150"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"130"			Linear 0.125 0.075
 	
 	Animate PlayerStatusHealthValue 		 FgColor "CBHealthLow" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpec 		 FgColor "CBHealthLow" Accel 0.0 0.0
@@ -762,7 +762,26 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
+	Animate fogCrosshair 	FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
+	Animate fogCrosshair 	FgColor 	"255 255 255 255" 	Linear 0.10 0.10001
+	
+	Animate xHairCirclePulse 	FgColor "255 0 0 255" Linear 0.0 0.00001
+	Animate xHairCirclePulse 	FgColor "0 0 0 255" Linear 0.10 0.10001
+	
+	Animate xHairDotOutline 	FgColor "255 0 0 255" Linear 0.0 0.00001
+	Animate xHairDotOutline 	FgColor "255 255 255 255" Linear 0.10 0.10001
+	
+	Animate xHairDotNew 	FgColor "255 0 0 255" Linear 0.0 0.00001
+	Animate xHairDotNew 	FgColor "255 255 255 255" Linear 0.10 0.10001
+	
+	//Animate KonrWings 	FgColor "255 0 0 255" Linear 0.0 0.00001
+	//Animate KonrWings 	FgColor "255 255 255 255" Linear 0.10 0.10001
+	
+	
+	
+	// Set the second line ("255 255 255 255") to whatever color you have changed
+	// your crosshair to be. So if you crosshair is green, the second line should
+	// also have that same value.
 }
 
 //===========================================
