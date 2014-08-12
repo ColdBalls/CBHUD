@@ -1698,7 +1698,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"25"
+			"textinsetx"	"20"
 			"use_proportional_insets" "1"
 			"font"			"roboto18"
 			"textAlignment"	"East"
