@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base.res"
+"Resource/UI/destroy_menu/dispenser_active.res"
 {
 	"ItemNameLabel"
 	{	
@@ -14,15 +14,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"	"#TF_Object_Sentry_360"
+		"labelText"		"#TF_Object_Dispenser"
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"fgcolor"		"255 255 255 255"
 	}
-
-	"ItemBackground"
+	
+	"ItemBackground"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"	"ItemBackground"
@@ -43,60 +42,43 @@
 		"PaintBackgroundType"		"0"
 		"TextInsetX"			"999999"
 	}
+	"DestroyIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"DestroyIcon"
+		"xpos"			"60"
+		"ypos"			"7"
+		"zpos"			"1"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_demolish"
+		"iconColor"		"255 255 255 255"
+	}
+		
 	"BuildingIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"	"BuildingIcon"
-		"xpos"		"9999"
-		"ypos"		"33"
-		"zpos"		"2"
-		"wide"		"56"
-		"tall"		"56"
-		"visible"	"1"
-		"enabled"	"1"
-		"scaleImage"	"1"	
-		"icon"		"hud_menu_sentry_build"
-		"iconColor"	"255 255 255 255"
-	}
-	
-	"MetalIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"	"MetalIcon"
 		"xpos"		"999999"
 	}
-	
-	"CostLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"	"CostLabel"
-		"font"		"roboto14"
-		"fgcolor"	"255 255 255 255"
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"1"
-		"wide"		"75"
-		"tall"		"30"
-		"autoResize"	"0"
-		"pinCorner"	"0"
-		"visible"	"1"
-		"enabled"	"1"
-		"labelText"	"%metal%"
-		"textAlignment"	"east"	
-	}
-	
-	"ModeLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"	"ModeLabel"
-		"xpos"		"999999"
-	}
-	
+		
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"	"NumberBg"
-		"xpos"		"999999"
+		"fieldName"		"NumberBg"
+		"xpos"			"41"
+		"ypos"			"99"
+		"zpos"			"0"
+		"wide"			"18"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_key_blank"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NumberLabel"
@@ -114,7 +96,7 @@
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
-		"labelText"	"1"
+		"labelText"	"2"
 		"textAlignment"	"west"
 		"dulltext"	"1"
 		"brighttext"	"0"

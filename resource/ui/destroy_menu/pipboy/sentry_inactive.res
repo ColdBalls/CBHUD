@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base.res"
+"Resource/UI/destroy_menu/sentry_inactive.res"
 {
 	"ItemNameLabel"
 	{	
@@ -15,14 +15,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"	"#TF_Object_Sentry_360"
+		"labelText_lodef"		"#TF_Object_Sentry_360"
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"fgcolor"		"255 255 255 255"
 	}
-
-	"ItemBackground"
+	
+	"ItemBackground"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"	"ItemBackground"
@@ -43,55 +43,48 @@
 		"PaintBackgroundType"		"0"
 		"TextInsetX"			"999999"
 	}
-	"BuildingIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"	"BuildingIcon"
-		"xpos"		"9999"
-		"ypos"		"33"
-		"zpos"		"2"
-		"wide"		"56"
-		"tall"		"56"
-		"visible"	"1"
-		"enabled"	"1"
-		"scaleImage"	"1"	
-		"icon"		"hud_menu_sentry_build"
-		"iconColor"	"255 255 255 255"
-	}
-	
-	"MetalIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"	"MetalIcon"
-		"xpos"		"999999"
-	}
-	
-	"CostLabel"
+	"NotBuiltLabel"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"	"CostLabel"
-		"font"		"roboto14"
-		"fgcolor"	"255 255 255 255"
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"1"
-		"wide"		"75"
+		"fieldName"	"NotBuiltLabel"
+		"font"		"roboto11"
+		"xpos"		"5"
+		"ypos"		"9"
+		"zpos"		"2"
+		"wide"		"80"
 		"tall"		"30"
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
-		"labelText"	"%metal%"
-		"textAlignment"	"east"	
+		"labelText"	"#TF_NotBuilt"
+		"textAlignment"	"west"
+		"dulltext"	"0"
+		"brighttext"	"0"
+		"fgcolor"	"255 0 0 255"
 	}
-	
-	"ModeLabel"
+
+	"UnavailableLabel"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"	"ModeLabel"
-		"xpos"		"999999"
-	}
-	
+		"fieldName"	"UnavailableLabel"
+		"font"		"Default"
+		"xpos"		"5"
+		"ypos"		"9"
+		"zpos"		"2"
+		"wide"		"80"
+		"tall"		"30"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"	"0"
+		"enabled"	"1"
+		"labelText"	"#Hud_Menu_Build_Unavailable"
+		"textAlignment"	"West"
+		"dulltext"	"0"
+		"brighttext"	"0"
+		"fgcolor"	"255 0 0 255"
+	}		
+			
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"

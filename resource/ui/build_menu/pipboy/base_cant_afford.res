@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base.res"
+"Resource/UI/build_menu/base_cant_afford.res"
 {
 	"ItemNameLabel"
 	{	
@@ -19,10 +19,10 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"255 0 0 255"
 	}
-
-	"ItemBackground"
+	
+	"ItemBackground"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"	"ItemBackground"
@@ -43,20 +43,25 @@
 		"PaintBackgroundType"		"0"
 		"TextInsetX"			"999999"
 	}
-	"BuildingIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"	"BuildingIcon"
-		"xpos"		"9999"
-		"ypos"		"33"
+	"CantBuildReason"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"	"CantBuildReason"
+		"font"		"roboto10"
+		"xpos"		"5"
+		"ypos"		"14"
 		"zpos"		"2"
-		"wide"		"56"
-		"tall"		"56"
+		"wide"		"80"
+		"tall"		"30"
+		"autoResize"	"0"
+		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
-		"scaleImage"	"1"	
-		"icon"		"hud_menu_sentry_build"
-		"iconColor"	"255 255 255 255"
+		"labelText"	"#Hud_Menu_Build_Cant_Afford"
+		"textAlignment"	"west"
+		"dulltext"	"0"
+		"brighttext"	"0"
+		"fgcolor"	"255 255 255 255"
 	}
 	
 	"MetalIcon"	
@@ -71,7 +76,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"	"CostLabel"
 		"font"		"roboto14"
-		"fgcolor"	"255 255 255 255"
+		"fgcolor"	"255 0 0 255"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"1"
@@ -82,14 +87,14 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"labelText"	"%metal%"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 	}
 	
 	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"	"ModeLabel"
-		"xpos"		"999999"
+		"xpos"		"999999"	
 	}
 	
 	"NumberBg"	
@@ -104,7 +109,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"	"NumberLabel"
 		"font"		"roboto12"
-		"fgcolor"	"255 255 255 255"
+		"fgcolor"	"255 0 0 255"
 		"xpos"		"5"
 		"ypos"		"0"
 		"zpos"		"1"
