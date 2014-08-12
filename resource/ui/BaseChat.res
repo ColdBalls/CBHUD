@@ -7,7 +7,7 @@
 		"visible" 		        "1"
 		"enabled" 		        "1"
 		"xpos"			          "1"
-		"ypos"			          "c0"		//around 150 for center
+		"ypos"			          "10"		//around 150 for center
 		"wide"	 		          "232"
 		"tall"	 		          "120"
 		"fgcolor"		"255 255 255 255"
