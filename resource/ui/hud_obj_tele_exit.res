@@ -64,7 +64,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
 			"font"			"DefaultVerySmall"
-			"xpos"			"60"
+			"xpos"			"99999" // old value: "60"
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"31"
@@ -89,92 +89,7 @@
 		"tall"			"43"
 		"visible"		"0"
 		
-		"ExitStatusBG"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ExitStatusBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-2"
-			"wide"			"120"
-			"tall"				"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"18 18 18 200"
-			"scaleImage"		"1"
-		}	
-	
-		
-		
-		"ExitStatusDarkBorder1"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"SentryStatusDarkBorder1"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"120"
-			"tall"				"3"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"32 31 33 200"
-			"scaleImage"		"1"
-		}		
-		
-		"ExitStatusDarkBorder2"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ExitStatusDarkBorder2"
-			"xpos"			"0"
-			"ypos"			"28"
-			"zpos"			"1"
-			"wide"			"120"
-			"tall"				"3"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"32 31 33 200"
-			"scaleImage"		"1"
-		}	
-		
-		"ExitStatusDarkBorder3"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ExitStatusDarkBorder3"
-			"xpos"			"0"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"3"
-			"tall"				"26"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"32 31 33 200"
-			"scaleImage"		"1"
-		}		
-		
-		"ExitStatusDarkBorder4"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ExitStatusDarkBorder4"
-			"xpos"			"118"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"3"
-			"tall"				"26"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"32 31 33 200"
-			"scaleImage"		"1"
-		}	
+
 
 		"Icon_Upgrade_1"
 		{
