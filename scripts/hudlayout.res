@@ -120,7 +120,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"KonrWings"
 		
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"2"
 
@@ -656,8 +656,8 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-242"	[$WIN32]
-		"ypos"		"c150"	[$WIN32]
+		"xpos"		"0"	[$WIN32]
+		"ypos"		"c-30"	[$WIN32]
 		"wide"		"150"
 		"tall"		"50"
 		

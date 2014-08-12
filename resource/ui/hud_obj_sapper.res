@@ -26,79 +26,13 @@
 		"tall"				"31"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0" // set to not visible
 		"enabled"		"1"
-		"fillcolor"		"57 53 52 200"
+		"fillcolor"		"25 25 25 200"
 		"scaleImage"		"1"
 	}	
 	
-	"SapperStatusDarkBorder1"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"SentryStatusDarkBorder1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"120"
-		"tall"				"3"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"32 31 33 200"
-		"scaleImage"		"1"
-	}		
-	
-	"SapperStatusDarkBorder2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"SapperStatusDarkBorder2"
-		"xpos"			"0"
-		"ypos"			"28"
-		"zpos"			"1"
-		"wide"			"120"
-		"tall"				"3"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"32 31 33 200"
-		"scaleImage"		"1"
-	}	
-	
-	"SapperStatusDarkBorder3"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"SapperStatusDarkBorder3"
-		"xpos"			"0"
-		"ypos"			"3"
-		"zpos"			"1"
-		"wide"			"3"
-		"tall"				"26"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"32 31 33 200"
-		"scaleImage"		"1"
-	}		
-	
-	"SapperStatusDarkBorder4"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"SapperStatusDarkBorder4"
-		"xpos"			"118"
-		"ypos"			"3"
-		"zpos"			"1"
-		"wide"			"3"
-		"tall"				"26"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"32 31 33 200"
-		"scaleImage"		"1"
-	}	
+
 	
 	
 	"Background"
