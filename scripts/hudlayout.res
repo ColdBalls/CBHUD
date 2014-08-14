@@ -41,15 +41,20 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairDotOutline"
+		
 		"visible"				"0"
 		"enabled"			"1"
+		
 		"xpos"				"0"
 		"ypos"				"1"
 		"zpos"				"2"
+		
 		"wide"				"f0"
 		"tall"					"480"
+		
 		"font"				"xHairDotOutline"
 		"labelText"		"+"
+		
 		"fgcolor"			"234 234 234 255"
 		"textAlignment"	"center"
 	}
@@ -58,20 +63,22 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"ThinCircle"
+		
 		"visible"		"0"
 		"enabled"		"0"
-		"zpos"			"2"
 
 		"xpos"			"c-100"
 		"ypos"			"c-96"
+		"zpos"			"2"		
+		
 		"wide"			"200"
 		"tall"			"200"
 
 		//"font"			"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"9"
-		"textAlignment"	"center"	
 		
+		"textAlignment"	"center"	
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -79,40 +86,44 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairCirclePulse"
+		
 		"visible"		"0"
 		"enabled"		"1"
-		"zpos"			"2"
 
 		"xpos"			"c-100"
 		"ypos"			"c-100"
+		"zpos"			"2"		
+		
 		"wide"			"200"
 		"tall"			"200"
 
 		"font"			"xHairCirclePulse"
 		"labelText"		"i"
-		"textAlignment"	"center"	
 		
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"0 0 0 255"		
+		"textAlignment"	"center"	
 	}
 	
 	xHairCircle //Same circle, but without the color change on damage.
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairCircle"
+		
 		"visible"		"0"
 		"enabled"		"1"
-		"zpos"			"2"
 
 		"xpos"			"c-100"
 		"ypos"			"c-100"
+		"zpos"			"2"
+		
 		"wide"			"200"
 		"tall"			"200"
 
 		"font"			"xHairCirclePulse"
 		"labelText"		"i"
-		"textAlignment"	"center"	
 		
 		"fgcolor"		"255 255 255 80"
+		"textAlignment"	"center"	
 	}
 	
 	KonrWings
@@ -122,20 +133,20 @@
 		
 		"visible"		"0"
 		"enabled"		"1"
-		"zpos"			"2"
 
 		"xpos"			"c-108"
 		"ypos"			"c-99"
+		"zpos"			"2"
+		
 		"wide"			"200"
 		"tall"			"200"
 
-		//"font"		"KonrWingsOutline24"
-
+		//"font"			"KonrWingsOutline24"
 		"font"			"KonrWings24"
 		"labelText"		"i"
-		"textAlignment"	"center"	
-		
+
 		"fgcolor"		"255 255 255 255"
+		"textAlignment"	"center"		
 	}
 	
 	CrossHairNormal //requested by Nik
@@ -155,6 +166,7 @@
 
 		"font"			"CrossHairNormal"
 		"labelText"		"+"
+		
 		"fgcolor"		"235 226 202 255"
 		"textAlignment"	"center"
 	}
@@ -167,33 +179,36 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DotCircleOutline"
+		
 		"visible"		"0"
 		"enabled"		"0"
-		"zpos"			"2"
 
 		"xpos"			"c-100"
 		"ypos"			"c-96"
+		"zpos"			"2"
+		
 		"wide"			"200"
 		"tall"			"200"
 
 		"font"			"CrosshairV3_28_Outlined"
 		"labelText"		"8"
-		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"255 255 255 255"		
+		"textAlignment"	"center"	
 	}
 	
 	"xHairDotNew" //Requested by flame'
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairDotNew"
+		
 		"visible"				"0"
 		"enabled"			"1"
 		
 		"xpos"				"-2"
 		"ypos"				"2"
-		"ypos"				"0"
 		"zpos"				"2"
+		
 		"wide"				"f0"
 		"tall"					"480"
 		
@@ -203,9 +218,8 @@
 			//"xhairdotOutlineNew" for dot with outline
 			//"xhairdotNew" for dot without outline		
 		
-		
-		
 		"labelText"		"3"
+		
 		"FgColor"			"255 255 255 255"
 		"textAlignment"	"center"
 	}
@@ -226,8 +240,8 @@
 		"tall"					"480"
 		
 		"font"				"DotCircleOutline"
-		
 		"labelText"		"8"
+		
 		"FgColor"			"255 255 255 255"
 		"textAlignment"	"center"
 	}
@@ -670,7 +684,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"ypos"		"c-100"
+		"ypos"		"0"
 		"wide"		"500"
 		"tall"		"400"
 		
