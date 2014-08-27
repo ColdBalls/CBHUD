@@ -82,46 +82,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassBG1"
-		"xpos"			"c-115"
+		"xpos"			"c-145"
 		"ypos"			"c-80"
 		"zpos"			"0"
-		"wide"			"220"
+		"wide"			"250"
 		"tall"			"180"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"fillcolor"		"25 25 25 255"
 	}	
-	
-	"ClassBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ClassBG2"
-		"xpos"			"c110"
-		"ypos"			"c-80"
-		"zpos"			"0"
-		"wide"			"50"
-		"tall"			"145"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"fillcolor"		"25 25 25 255"
-	}	
-	
-	"ClassBGWhite"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ClassBGWhite"
-		"xpos"			"c115"
-		"ypos"			"c-75"
-		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"135"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"fillcolor"		"255 255 255 255"
-	}
 	
 	"random"
 	{
@@ -1055,7 +1025,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numScout"
-		"xpos"		"c115"
+		"xpos"		"c-40"
 		"ypos"		"c-75"
 		"zpos"		"5"
 		"wide"		"40"
@@ -1066,17 +1036,17 @@
 		"enabled"	"1"
 		"tabPosition"	"0"
 		"labelText"	"%numScout%"
-		"textAlignment"	"Center"
+		"textAlignment"	"East"
 		"textinsetx"	"10"
 		"font"		"roboto11"
-		"fgcolor"	"0 0 0 255"
+		"fgcolor"	"255 255 255 255"
 	}	
 	
 	"numSoldier" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numSoldier"
-		"xpos"		"c115"
+		"xpos"		"c-40"
 		"ypos"		"c-60"
 		"zpos"		"5"
 		"wide"		"40"
@@ -1087,17 +1057,17 @@
 		"enabled"	"1"
 		"tabPosition"	"0"
 		"labelText"	"%numSoldier%"
-		"textAlignment"	"Center"
+		"textAlignment"	"East"
 		"textinsetx"	"10"
 		"font"		"roboto11"
-		"fgcolor"	"0 0 0 255"
+		"fgcolor"	"255 255 255 255"
 	}		
 	
 	"numPyro" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numPyro"
-		"xpos"		"c115"
+		"xpos"		"c-40"
 		"ypos"		"c-45"
 		"zpos"		"5"
 		"wide"		"40"
@@ -1108,17 +1078,17 @@
 		"enabled"	"1"
 		"tabPosition"	"0"
 		"labelText"	"%numPyro%"
-		"textAlignment"	"center"
+		"textAlignment"	"East"
 		"textinsetx"	"10"
 		"font"		"roboto11"
-		"fgcolor"	"0 0 0 255"
+		"fgcolor"	"255 255 255 255"
 	}			
 	
 	"numDemoman" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numDemoman"
-		"xpos"		"c115"
+		"xpos"		"c-40"
 		"ypos"		"c-30"
 		"zpos"		"5"
 		"wide"		"40"
@@ -1129,17 +1099,17 @@
 		"enabled"	"1"
 		"tabPosition"	"0"
 		"labelText"	"%numDemoman%"
-		"textAlignment"	"center"
+		"textAlignment"	"East"
 		"textinsetx"	"10"
 		"font"		"roboto11"
-		"fgcolor"	"0 0 0 255"
+		"fgcolor"	"255 255 255 255"
 	}				
 	
 	"numHeavy" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numHeavy"
-		"xpos"		"c115"
+		"xpos"		"c-40"
 		"ypos"		"c-15"
 		"zpos"		"5"
 		"wide"		"40"
@@ -1150,17 +1120,17 @@
 		"enabled"	"1"
 		"tabPosition"	"0"
 		"labelText"	"%numHeavy%"
-		"textAlignment"	"Center"
+		"textAlignment"	"East"
 		"textinsetx"	"10"
 		"font"		"roboto11"
-		"fgcolor"	"0 0 0 255"
+		"fgcolor"	"255 255 255 255"
 	}					
 	
 	"numEngineer" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numEngineer"
-		"xpos"		"c115"
+		"xpos"		"c-40"
 		"ypos"		"c0"
 		"zpos"		"5"
 		"wide"		"40"
@@ -1171,17 +1141,17 @@
 		"enabled"	"1"
 		"tabPosition"	"0"
 		"labelText"	"%numEngineer%"
-		"textAlignment"	"Center"
+		"textAlignment"	"East"
 		"textinsetx"	"10"
 		"font"		"roboto11"
-		"fgcolor"	"0 0 0 255"
+		"fgcolor"	"255 255 255 255"
 	}						
 	
 	"numMedic" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numMedic"
-		"xpos"		"c115"
+		"xpos"		"c-40"
 		"ypos"		"c15"
 		"zpos"		"5"
 		"wide"		"40"
@@ -1192,17 +1162,17 @@
 		"enabled"	"1"
 		"tabPosition"	"0"
 		"labelText"	"%numMedic%"
-		"textAlignment"	"Center"
+		"textAlignment"	"East"
 		"textinsetx"	"10"
 		"font"		"roboto11"
-		"fgcolor"	"0 0 0 255"
+		"fgcolor"	"255 255 255 255"
 	}							
 	
 	"numSniper" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numSniper"
-		"xpos"		"c115"
+		"xpos"		"c-40"
 		"ypos"		"c30"
 		"zpos"		"5"
 		"wide"		"40"
@@ -1213,17 +1183,17 @@
 		"enabled"	"1"
 		"tabPosition"	"0"
 		"labelText"	"%numSniper%"
-		"textAlignment"	"Center"
+		"textAlignment"	"East"
 		"textinsetx"	"10"
 		"font"		"roboto11"
-		"fgcolor"	"0 0 0 255"
+		"fgcolor"	"255 255 255 255"
 	}						
 	
 	"numSpy" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"numSpy"
-		"xpos"		"c115"
+		"xpos"		"c-40"
 		"ypos"		"c45"
 		"zpos"		"5"
 		"wide"		"40"
@@ -1234,10 +1204,10 @@
 		"enabled"	"1"
 		"tabPosition"	"0"
 		"labelText"	"%numSpy%"
-		"textAlignment"	"Center"
+		"textAlignment"	"East"
 		"textinsetx"	"10"
 		"font"		"roboto11"
-		"fgcolor"	"0 0 0 255"
+		"fgcolor"	"255 255 255 255"
 	}								
 	
 	"MvMUpgradeImageScout"
@@ -1387,7 +1357,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"c-105"
+		"xpos"			"c-135"
 		"ypos"			"c-75"
 		"zpos"			"6"		
 		"wide"			"100"
