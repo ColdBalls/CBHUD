@@ -241,33 +241,33 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
-		Econ.Button.DepressedFgColor						"Black"
+		Econ.Button.BgColor									"255 255 255 60"
+		Econ.Button.FgColor									"ButtonFont"
+		Econ.Button.ArmedBgColor							"255 255 255 180"
+		Econ.Button.ArmedFgColor							"ButtonFontArmed"
+		Econ.Button.DepressedBgColor						"255 255 255 60"
+		Econ.Button.DepressedFgColor						"ButtonFont"
 		
-		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
+        Econ.Button.PresetDefaultColorFg                       "ButtonFontSelect"
+        Econ.Button.PresetArmedColorFg                         "ButtonFontArmed"
+        Econ.Button.PresetDepressedColorFg                     "ButtonFontSelect"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorBg					"255 255 255 60"
+		Econ.Button.PresetArmedColorBg						"255 255 255 180"
+		Econ.Button.PresetDepressedColorBg					"255 255 255 60"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
-		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
+		Border.Selection				"255 255 255 60"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+        Button.TextColor                    "ButtonFont"
+        Button.BgColor                      "255 255 255 60"
+        Button.ArmedTextColor               "ButtonFontArmed"
+        Button.ArmedBgColor                 "255 255 255 180"
+        Button.SelectedTextColor            "ButtonFontSelect"
+        Button.SelectedBgColor              "255 255 255 180"
+        Button.DepressedTextColor           "ButtonFont"               //As you click
+        Button.DepressedBgColor             "255 255 255 60"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -3289,22 +3289,22 @@ Scheme
 
 		ButtonBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"offset" "0 0"
+			"color" "blank"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"offset" "0 0"
+			"color" "blank"
 		}
 
-		ButtonDepressedBorder
-		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
-		}
+//		ButtonDepressedBorder
+//		{
+//			"inset" "0 0 0 0"
+//			"backgroundtype" "2"
+//		}
 
 		ComboBoxBorder
 		{
@@ -3486,8 +3486,8 @@ Scheme
 			//"image"					"../hud/color_panel_browner"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderOpaque
 		{
@@ -3497,8 +3497,8 @@ Scheme
 			"image"					"../hud/color_panel_brown_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorder
 		{
@@ -3519,8 +3519,8 @@ Scheme
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
@@ -3676,8 +3676,8 @@ Scheme
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		BackpackItemGrayedOut
@@ -4181,8 +4181,8 @@ Scheme
 			"image"					"alert_rect"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuButtonDefault
 		{
@@ -4192,8 +4192,8 @@ Scheme
 			"image"					"button_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuButtonArmed
 		{
@@ -4203,8 +4203,8 @@ Scheme
 			"image"					"button_central_hover"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuButtonDisabled
 		{
@@ -4214,8 +4214,8 @@ Scheme
 			"image"					"button_central_disabled"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuMiniButtonDefault
 		{
@@ -4225,8 +4225,8 @@ Scheme
 			"image"					"button_central_adv"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"1"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuMiniButtonArmed
 		{
@@ -4236,8 +4236,8 @@ Scheme
 			"image"					"button_central_adv_hover"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"1"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuBGBorder
 		{
@@ -4247,8 +4247,8 @@ Scheme
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuBGBorderAlpha
 		{
@@ -4258,8 +4258,8 @@ Scheme
 			"image"					"button_holder_central_alpha"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuBlogTabBG
 		{
@@ -4269,8 +4269,8 @@ Scheme
 			"image"					"blog_tabby"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuHighlightBorder
 		{
@@ -4280,8 +4280,8 @@ Scheme
 			"image"					"callout_bubble"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		TrainingResultsBG
@@ -4292,8 +4292,8 @@ Scheme
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		StoreInnerShadowBorder
@@ -4304,8 +4304,8 @@ Scheme
 			"image"					"store/innershadow_border"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		StoreNewBorder
@@ -4316,8 +4316,8 @@ Scheme
 			"image"					"new_corner"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		StoreDiscountBorder
@@ -4328,8 +4328,8 @@ Scheme
 			"image"					"sale_corner"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		StorePreviewBorder
@@ -4340,8 +4340,8 @@ Scheme
 			"image"					"store/store_inspector_bg_small"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		StoreAddToCart
 		{
@@ -4351,8 +4351,8 @@ Scheme
 			"image"					"store/store_add_to_cart"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		StorePreviewTabSelected
 		{
@@ -4362,8 +4362,8 @@ Scheme
 			"image"					"store/store_tab_selected"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"12"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		StorePreviewTabUnselected
 		{
@@ -4373,8 +4373,8 @@ Scheme
 			"image"					"store/store_tab_unselected"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"16"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"12"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		StorePromotion
 		{
@@ -4384,8 +4384,8 @@ Scheme
 			"image"					"store/store_coupon_border"
 			"src_corner_height"		"16"				// pixels inside the image
 			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		ArmoryScrollbarBox
@@ -4396,8 +4396,8 @@ Scheme
 			"image"					"scroll_button_off"
 			"src_corner_height"		"16"				// pixels inside the image
 			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ArmoryScrollbarWell
 		{
@@ -4407,8 +4407,8 @@ Scheme
 			"image"					"scroll_well"
 			"src_corner_height"		"16"				// pixels inside the image
 			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		QuickplayBorder
 		{
@@ -4498,8 +4498,8 @@ Scheme
 			"image"					"replay/fatlineborder_red"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ReplayFatLineBorderOpaque
 		{
@@ -4509,8 +4509,8 @@ Scheme
 			"image"					"replay/fatlineborder"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ReplayGrayDialogBorder
 		{
@@ -4554,8 +4554,8 @@ Scheme
 			//"image"					"../hud/color_panel_browner"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ReplayDefaultBorder
 		{
@@ -4565,8 +4565,8 @@ Scheme
 			"image"					"replay/panel_scalable_default"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ReplayHighlightBorder
 		{
@@ -4576,8 +4576,8 @@ Scheme
 			"image"					"replay/panel_scalable_highlight"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ReplayBalloonBorder
 		{
@@ -4587,8 +4587,8 @@ Scheme
 			"image"					"replay/panel_scalable_balloon"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{
