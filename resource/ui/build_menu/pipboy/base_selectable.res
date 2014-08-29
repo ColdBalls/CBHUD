@@ -31,7 +31,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Empty_Slot"
-		"labelText_lodef"		"#TF_Empty_Slot"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -42,7 +41,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
-		"xpos"			"9999"
+		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"98"
@@ -58,7 +57,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
-		"xpos"			"9999"
+		"xpos"			"22"
 		"ypos"			"19"
 		"zpos"			"2"
 		"wide"			"56"

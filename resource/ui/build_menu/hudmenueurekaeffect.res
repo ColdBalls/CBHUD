@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
-		"xpos"			"9999"
+		"xpos"			"99999"
 		"ypos"			"10"
 		"zpos"			"0"
 		"wide"			"250"
@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
-		"xpos"			"9999"
+		"xpos"			"99999"
 		"ypos"			"-8"
 		"zpos"			"1"
 		"wide"			"48"
@@ -36,7 +36,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIconShadow"
-		"xpos"			"9999"
+		"xpos"			"99999"
 		"ypos"			"-7"
 		"zpos"			"0"
 		"wide"			"48"
@@ -53,7 +53,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontGiant"
-		"xpos"			"9999"			// align me to the left edge of the first selection
+		"xpos"			"99999"			// align me to the left edge of the first selection
 		"ypos"			"8"
 		"zpos"			"2"
 		"wide"			"300"
@@ -74,7 +74,7 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontGiant"
 		"fgcolor"		"Black"
-		"xpos"			"9999"			// align me to the left edge of the first selection
+		"xpos"			"99999"			// align me to the left edge of the first selection
 		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"300"
@@ -94,7 +94,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
-		"xpos"			"9999"
+		"xpos"			"99999" // "35" disabled
 		"ypos"			"35"
 		"zpos"			"1"
 		"wide"			"200"
@@ -113,11 +113,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"available_target_1"
-		"xpos"				"c-85"
-		"ypos"				"c20"
-		"zpos"				"10"
-		"wide"				"80"
-		"tall"				"30"
+		"xpos"			"30"
+		"ypos"			"42"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"124"
 		"visible"		"1"
 	}	
 	
@@ -125,11 +125,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"available_target_2"
-		"xpos"				"c5"
-		"ypos"				"c20"
-		"zpos"				"10"
-		"wide"				"80"
-		"tall"				"30"
+		"xpos"			"30"
+		"ypos"			"84"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"124"
 		"visible"		"1"
 	}	
 
@@ -137,55 +137,23 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_target_1"
-		"xpos"				"c-85"
-		"ypos"				"c20"
-		"zpos"				"10"
-		"wide"				"80"
-		"tall"				"30"
-		"visible"		"0"
+		"xpos"			"30"
+		"ypos"			"42"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"124"
+		"visible"		"1"
 	}	
 	
 	"unavailable_target_2"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_target_2"
-		"xpos"				"c5"
-		"ypos"				"c20"
-		"zpos"				"10"
-		"wide"				"80"
-		"tall"				"30"
-		"visible"		"0"
+		"xpos"			"30"
+		"ypos"			"84"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"124"
+		"visible"		"1"
 	}	
-	
-		"EurekaBG"
-	{
-		"ControlName"			"CExImageButton"
-		"fieldName"			"EurekaBG"
-		"xpos"				"c-85"
-		"ypos"				"c20"
-		"zpos"				"0"
-		"wide"				"80"
-		"tall"				"30"
-		"visible"			"1"		
-		"enabled"			"1"
-		"defaultbgcolor_override"	"0 0 0 130"
-		"PaintBackgroundType"		"0"
-		"TextInsetX"			"999999"
-	}
-	
-	"EurekaBG2"
-	{
-		"ControlName"			"CExImageButton"
-		"fieldName"			"EurekaBG2"
-		"xpos"				"c5"
-		"ypos"				"c20"
-		"zpos"				"0"
-		"wide"				"80"
-		"tall"				"30"
-		"visible"			"1"		
-		"enabled"			"1"
-		"defaultbgcolor_override"	"0 0 0 130"
-		"PaintBackgroundType"		"0"
-		"TextInsetX"			"999999"
-	}
 }

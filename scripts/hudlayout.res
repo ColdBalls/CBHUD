@@ -1355,10 +1355,10 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
+		"xpos"			"r200"
+		"ypos"			"c-100"
+		"wide"			"450"
+		"tall"			"300"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1367,10 +1367,10 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
+		"xpos"			"r200"
+		"ypos"			"c-100"
+		"wide"			"450"
+		"tall"			"300"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1379,11 +1379,11 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
+		"xpos"			"r130"
+		"ypos"			"c-150"
 		"zpos"			"4"
 		"wide"			"470"
-		"tall"			"200"	[$WIN32]
+		"tall"			"300"	[$WIN32]
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -1729,10 +1729,10 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
+		"xpos"			"r200"
+		"ypos"			"c-100"
+		"wide"			"450"
+		"tall"			"300"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1741,9 +1741,9 @@
 		"fieldName" 	"HudMenuTauntSelection"
  		"visible" 		"1"
  		"enabled" 		"1"
-        "xpos"          "c-234"
-        "ypos"          "c-75"
-        "wide"          "470"
-        "tall"          "200"   
+        "xpos"          "0"
+        "ypos"          "0"
+        "wide"          "f0"
+        "tall"          "480"   
 	}
 }
