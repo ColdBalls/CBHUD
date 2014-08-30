@@ -817,8 +817,22 @@
 	"CancelButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
-		"fieldName"	"CancelButton"
-		"xpos"		"999999"
+		"fieldName"		"CancelButton"
+		"xpos"			"c-295"
+		"ypos"			"r38"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Cancel (&Q)"
+		"textAlignment"	"center"
+		"Command"		"vguicancel"
+		"font"			"HudFontSmallBold"
+		"fgcolor_override" "200 80 60 255"
 	}
 	
 	"EditLoadoutButton" [$WIN32] 
