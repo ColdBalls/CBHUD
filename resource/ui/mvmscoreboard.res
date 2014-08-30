@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"c-450"
+		"xpos"				"c-300"
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"600"
@@ -33,23 +33,23 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"425"
-		"ypos"			"30"
+		"xpos"			"c150"
+		"ypos"			"10"
 		"wide"			"150"
-		"tall"			"20"
+		"tall"			"50"
 		"visible"		"1"
 		
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmallest"
+			"font"			"roboto24"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"150"
-			"tall"			"10"
+			"tall"			"20"
 			"fgcolor"		"tanlight"
 		}
 		
@@ -57,13 +57,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"HudFontSmallBold"
+			"font"			"roboto18"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"9"
+			"ypos"			"20"
 			"wide"			"150"
-			"tall"			"10"
+			"tall"			"25"
 			"fgcolor"		"tanlight"
 		}
 	}

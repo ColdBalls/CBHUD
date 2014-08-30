@@ -52,7 +52,7 @@
 					"ypos"				"25"
 					"wide"			"48"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"roboto10"
 				}
 			}
 			
