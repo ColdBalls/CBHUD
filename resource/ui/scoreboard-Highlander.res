@@ -721,10 +721,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%assists%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"100"
-			"xpos_minmode"			"70"
+			"xpos"		"135"
+			"xpos_minmode"			"105"
 			"ypos"		"5"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -761,10 +761,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%backstabs%"
-			"textAlignment"	"East"		[$WIN32]
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"100"	[$WIN32]
-			"xpos_minmode"			"70"
+			"xpos"		"135"
+			"xpos_minmode"			"105"
 			"ypos"		"15"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -801,10 +801,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%bonus%"
-			"textAlignment"	"East"	[$WIN32]
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"100"	[$WIN32]
-			"xpos_minmode"			"70"
+			"xpos"		"135"
+			"xpos_minmode"			"105"
 			"ypos"		"25"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -841,10 +841,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%captures%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"100"	[$WIN32]
-			"xpos_minmode"			"70"
+			"xpos"		"135"
+			"xpos_minmode"			"105"
 			"ypos"		"35"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -881,10 +881,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%defenses%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"210"	[$WIN32]
-			"xpos_minmode"			"160"
+			"xpos"		"245"	[$WIN32]
+			"xpos_minmode"			"195"
 			"ypos"		"5"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -921,10 +921,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%destruction%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"210"
-			"xpos_minmode"			"160"
+			"xpos"		"245"	[$WIN32]
+			"xpos_minmode"			"195"
 			"ypos"		"15"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -961,10 +961,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%dominations%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"210"	[$WIN32]
-			"xpos_minmode"			"160"
+			"xpos"		"245"	[$WIN32]
+			"xpos_minmode"			"195"
 			"ypos"		"25"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -1001,10 +1001,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%headshots%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"210"	[$WIN32]
-			"xpos_minmode"			"160"
+			"xpos"		"245"	[$WIN32]
+			"xpos_minmode"			"195"
 			"ypos"		"35"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -1041,10 +1041,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%healing%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"320"	[$WIN32]
-			"xpos_minmode"			"250"
+			"xpos"		"355"	[$WIN32]
+			"xpos_minmode"			"285"
 			"ypos"		"5"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -1081,10 +1081,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%invulns%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"320"	[$WIN32]
-			"xpos_minmode"			"250"
+			"xpos"		"355"	[$WIN32]
+			"xpos_minmode"			"285"
 			"ypos"		"15"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -1122,10 +1122,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%Revenge%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"320"	[$WIN32]
-			"xpos_minmode"			"250"
+			"xpos"		"355"	[$WIN32]
+			"xpos_minmode"			"285"
 			"ypos"		"25"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -1163,10 +1163,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%teleports%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"320"	[$WIN32]
-			"xpos_minmode"			"250"
+			"xpos"		"355"	[$WIN32]
+			"xpos_minmode"			"285"
 			"ypos"		"35"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
