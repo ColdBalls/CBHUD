@@ -688,12 +688,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Assists"
-			"font"		"robotoreg12"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%assists%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"100"
+			"xpos"		"135"
 			"ypos"		"5"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -726,12 +726,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Backstabs"
-			"font"		"robotoreg12"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%backstabs%"
-			"textAlignment"	"East"		[$WIN32]
+			"textAlignment"	"Center"		[$WIN32]
 			"textinsetx"	"0"
-			"xpos"		"100"	[$WIN32]
+			"xpos"		"135"	[$WIN32]
 			"ypos"		"15"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -764,12 +764,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Bonus"
-			"font"		"robotoreg12"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%bonus%"
-			"textAlignment"	"East"	[$WIN32]
+			"textAlignment"	"Center"	[$WIN32]
 			"textinsetx"	"0"
-			"xpos"		"100"	[$WIN32]
+			"xpos"		"135"	[$WIN32]
 			"ypos"		"25"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -802,12 +802,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Captures"
-			"font"		"robotoreg12"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%captures%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"100"	[$WIN32]
+			"xpos"		"135"	[$WIN32]
 			"ypos"		"35"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -840,12 +840,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Defenses"
-			"font"		"robotoreg12"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%defenses%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"210"	[$WIN32]
+			"xpos"		"245"	[$WIN32]
 			"ypos"		"5"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -878,12 +878,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Destruction"
-			"font"		"robotoreg12"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%destruction%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"210"
+			"xpos"		"245"
 			"ypos"		"15"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -916,12 +916,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Domination"
-			"font"		"robotoreg12"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%dominations%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"210"	[$WIN32]
+			"xpos"		"245"	[$WIN32]
 			"ypos"		"25"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -954,12 +954,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Headshots"
-			"font"		"robotoreg12"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%headshots%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"210"	[$WIN32]
+			"xpos"		"245"	[$WIN32]
 			"ypos"		"35"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -992,12 +992,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Healing"
-			"font"		"robotoreg12"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%healing%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"320"	[$WIN32]
+			"xpos"		"355"	[$WIN32]
 			"ypos"		"5"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -1030,12 +1030,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Invuln"
-			"font"		"robotoreg12"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%invulns%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"320"	[$WIN32]
+			"xpos"		"355"	[$WIN32]
 			"ypos"		"15"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -1069,12 +1069,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Revenge"
-			"font"		"robotoreg12"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%Revenge%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"320"	[$WIN32]
+			"xpos"		"355"	[$WIN32]
 			"ypos"		"25"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
@@ -1108,12 +1108,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Teleports"
-			"font"		"robotoreg12"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%teleports%"
-			"textAlignment"	"East"
+			"textAlignment"	"Center"
 			"textinsetx"	"0"
-			"xpos"		"320"	[$WIN32]
+			"xpos"		"355"	[$WIN32]
 			"ypos"		"35"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"100"
