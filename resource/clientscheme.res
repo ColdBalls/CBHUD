@@ -843,6 +843,16 @@ Scheme
 				"additive"	 "0"
 			}
 		}
+		"robotoreg18"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"18"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}		
 		"roboto20"
 		{
 			"1"
@@ -853,6 +863,16 @@ Scheme
 				"additive"	 "0"
 			}
 		}
+		"robotoreg20"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"20"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}		
 		"roboto21"
 		{
 			"1"
@@ -863,6 +883,16 @@ Scheme
 				"additive"	 "0"
 			}
 		}
+		"robotoreg21"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"21"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}		
 		"roboto24"
 		{
 			"1"
@@ -873,6 +903,16 @@ Scheme
 				"additive"	 "0"
 			}
 		}
+		"robotoreg24"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"24"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}		
 		"roboto26"
 		{
 			"1"
@@ -883,6 +923,16 @@ Scheme
 				"additive"	 "0"
 			}
 		}
+		"robotoreg26"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"26"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}		
 		"roboto28"
 		{
 			"1"
@@ -893,6 +943,16 @@ Scheme
 				"additive"	 "0"
 			}
 		}
+		"robotoreg28"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"28"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}		
 		"roboto30"
 		{
 			"1"
@@ -903,6 +963,16 @@ Scheme
 				"additive"	 "0"
 			}
 		}
+		"robotoreg30"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"30"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}		
 		"roboto32"
 		{
 			"1"
@@ -913,6 +983,16 @@ Scheme
 				"additive"	 "0"
 			}
 		}
+		"robotoreg32"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"32"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}		
 		"roboto34"
 		{
 			"1"
@@ -923,6 +1003,16 @@ Scheme
 				"additive"	 "0"
 			}
 		}
+		"robotoreg34"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"34"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}		
 		"roboto36"
 		{
 			"1"
@@ -933,6 +1023,16 @@ Scheme
 				"additive"	 "0"
 			}
 		}
+		"robotoreg36"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"36"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}		
 		"roboto40"
 		{
 			"1"

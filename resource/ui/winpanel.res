@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"TeamScoresPanel"
 		"xpos"			"0"
-		"ypos"			"50"
+		"ypos"			"28"
 		"wide"			"480"
 		"tall"			"60"
 		"visible"		"1"
@@ -16,28 +16,28 @@
 			"fieldName"		"BlueScoreBG"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"80"
+			"wide"			"162"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"70 130 180 153"
+			"fillcolor"		"70 130 180 200"
 			"scaleImage"		"1"
 		}
 		"RedScoreBG"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"RedScoreBG"
-			"xpos"			"82"
-			"ypos"			"0"
-			"wide"			"80"
+			"xpos"			"0"
+			"ypos"			"22"
+			"wide"			"162"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"205 50 50 153"
+			"fillcolor"		"205 50 50 200"
 			"scaleImage"		"1"
 		}
 		"BlueTeamLabel"
@@ -47,9 +47,9 @@
 			"font"			"roboto20"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
-			"xpos"			"2"
+			"xpos"			"4"
 			"ypos"			"0"
-			"wide"			"80"
+			"wide"			"120"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -63,9 +63,9 @@
 			"font"			"roboto21"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
-			"xpos"			"-4"
+			"xpos"			"114"
 			"ypos"			"0"
-			"wide"			"80"
+			"wide"			"40"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -95,10 +95,10 @@
 			"fieldName"		"RedTeamLabel"
 			"font"			"roboto20"
 			"labelText"		"%redteamname%"
-			"textAlignment"		"east"
-			"xpos"			"82"
-			"ypos"			"0"
-			"wide"			"78"
+			"textAlignment"		"West"
+			"xpos"			"4"
+			"ypos"			"22"
+			"wide"			"120"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -111,10 +111,10 @@
 			"fieldName"		"RedTeamScore"
 			"font"			"roboto21"
 			"labelText"		"%redteamscore%"
-			"textAlignment"		"west"
-			"xpos"			"86"
-			"ypos"			"0"
-			"wide"			"80"
+			"textAlignment"		"East"
+			"xpos"			"114"
+			"ypos"			"22"
+			"wide"			"40"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -158,9 +158,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"roboto24"
+		"font"			"roboto21"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"8"
 		"zpos"			"1"
 		"wide"			"162"
 		"tall"			"20"
@@ -170,7 +170,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%WinningTeamLabel%"
-		"textAlignment"		"Center"
+		"textAlignment"		"East"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -198,18 +198,19 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
-		"font"			"roboto24"
+		"font"			"roboto18"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"8"
 		"zpos"			"1"
-		"wide"			"200"
+		"wide"			"162"
 		"tall"			"20"
+		"fgcolor"	"255 255 255 255"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%AdvancingTeamLabel%"
-		"textAlignment"		"Center"
+		"textAlignment"		"East"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -692,7 +693,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"255 255 255 60" // 60 alpha
+		"fillcolor"		"0 0 0 130" // 60 alpha
 		"PaintBackgroundType"	"0"
 	}	
 
@@ -710,7 +711,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"255 255 255 60" // 60 alpha
+		"fillcolor"		"0 0 0 130" // 60 alpha
 		"PaintBackgroundType"	"0"
 	}		
 	
@@ -728,14 +729,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"255 255 255 60" // 60 alpha
+		"fillcolor"		"0 0 0 130" // 60 alpha
 		"PaintBackgroundType"	"0"
 	}		
 	
-	"BlackLine"
+	"WhiteLine"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BlackLine"
+		"fieldName"		"WhiteLine"
 		"xpos"			"0"
 		"ypos"			"138"
 		"zpos"			"1"
@@ -746,7 +747,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 120" 
+		"fillcolor"		"255 255 255 200" 
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -764,7 +765,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"255 255 255 60" // 60 alpha
+		"fillcolor"		"0 0 0 130" // 60 alpha
 		"PaintBackgroundType"	"0"
 	}		
 	
@@ -774,7 +775,7 @@
 		"fieldName"		"KillstreakIcon"
 		"xpos"					"130"
 		"ypos"					"145"
-		"zpos"			"0"
+		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
 		"visible"		"1"
