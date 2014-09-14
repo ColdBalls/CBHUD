@@ -96,7 +96,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"68"
+		"xpos"			"59"
 		"ypos"			"25"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"50"
@@ -104,7 +104,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"West"	
+		"textAlignment"	"Center"	
 		"font"			"roboto28"
 		"fgcolor"		"CBHealthNormal"	
 	}	
@@ -113,7 +113,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueDropShadow"
-		"xpos"			"69"
+		"xpos"			"60"
 		"ypos"			"26"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"50"
@@ -121,7 +121,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"West"	
+		"textAlignment"	"Center"	
 		"font"			"roboto28"
 		"fgcolor"		"CBDropShadow"
 	}
@@ -348,7 +348,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_Parachute"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"c60"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"

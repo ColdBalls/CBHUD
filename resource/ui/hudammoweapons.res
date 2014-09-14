@@ -104,14 +104,14 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"roboto28"
 		"fgcolor"		"CBAmmoNoClipNormal"
-		"xpos"			"42"
+		"xpos"			"33"
 		"ypos"			"25"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"West"		
+		"textAlignment"	"Center"		
 		"labelText"		"%Ammo%"
 		
 	}	
@@ -121,14 +121,14 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"roboto28"
 		"fgcolor"		"CBDropShadow"
-		"xpos"			"43"
+		"xpos"			"34"
 		"ypos"			"26"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"West"		
+		"textAlignment"	"Center"		
 		"labelText"		"%Ammo%"
 		
 	}									
