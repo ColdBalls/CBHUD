@@ -1565,8 +1565,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ShowPromoCodesButton"
-		"xpos"			"c-285"
-		"ypos"			"397"
+		"xpos"			"99999"
+		"ypos"			"99999"
 		"wide"			"250"
 		"tall"			"20"
 		"autoResize"	"0"
