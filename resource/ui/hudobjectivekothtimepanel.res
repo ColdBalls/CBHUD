@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"c-52"
+		"xpos"				"0"
 		"ypos"				"5"
 		"zpos"				"2"
 		"wide"				"50"
@@ -40,7 +40,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"BluTimerBG"
-		"xpos"			"c-52"
+		"xpos"			"0"
 		"ypos"			"26"
 		"zpos"			"-1"
 		"wide"			"50"
@@ -60,7 +60,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"		"RedTimer"
-		"xpos"			"c2"
+		"xpos"			"54"
 		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"50"
@@ -96,7 +96,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"RedTimerBG"
-		"xpos"			"c2"
+		"xpos"			"54"
 		"ypos"			"26"
 		"zpos"			"-1"
 		"wide"			"50"
@@ -117,7 +117,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TimePanelValueBG"
-		"xpos"			"c-52"
+		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"-10"
 		"wide"			"50"
@@ -133,7 +133,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TimePanelValueBG"
-		"xpos"			"c2"
+		"xpos"			"54"
 		"ypos"			"5"
 		"zpos"			"-10"
 		"wide"			"50"
@@ -145,6 +145,19 @@
 		"fillcolor"		"18 18 18 200"
 		"scaleImage"		"1"
 	}	
-	
+
+	"ActiveTimerBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ActiveTimerBG"
+		"xpos"				"15"
+		"ypos"				"29"
+		"zpos"				"10"
+		"wide"				"50"
+		"tall"				"2"
+		"visible"			"0"
+		"enabled"			"1"
+		"fillcolor"			"TanLight"
+	}	
 
 }
