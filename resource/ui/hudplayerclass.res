@@ -180,7 +180,7 @@
 				"angles_y"		"172"
 				"angles_z"		"0"
 				"origin_x"		"130"
-				"origin_y"		"-3"
+				"origin_y"		"-5"
 				"origin_z"		"-97"
 			}
 			"Soldier"
@@ -196,11 +196,11 @@
 			"Demoman"
 			{
 				"fov"			"25"
-				"angles_x"		"-13"
-				"angles_y"		"160"
+				"angles_x"		"-15"
+				"angles_y"		"155"
 				"angles_z"		"0"
 				"origin_x"		"138"
-				"origin_y"		"-4"
+				"origin_y"		"-6"
 				"origin_z"		"-93"
 			}
 			"Medic"
@@ -210,17 +210,17 @@
 				"angles_y"		"220"
 				"angles_z"		"0"
 				"origin_x"		"150"
-				"origin_y"		"-5"
+				"origin_y"		"-10"
 				"origin_z"		"-96"
 			}
 			"Heavy"
 			{
-				"fov"			"20"
+				"fov"			"21"
 				"angles_x"		"-5"
 				"angles_y"		"200"
 				"angles_z"		"0"
 				"origin_x"		"200"
-				"origin_y"		"0"
+				"origin_y"		"-10"
 				"origin_z"		"-102"
 			}
 			"Pyro"
@@ -240,7 +240,7 @@
 				"angles_y"		"160"
 				"angles_z"		"0"
 				"origin_x"		"160"
-				"origin_y"		"0"
+				"origin_y"		"-5"
 				"origin_z"		"-95"
 			}
 			"Engineer"

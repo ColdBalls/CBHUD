@@ -32,7 +32,27 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"9999"
+		"xpos"			"170"
+		"ypos"			"40"
+		"zpos"			"2"
+		"wide"			"40"
+		"tall"	 		"20"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"			"../hud/color_panel_brown"
+		"teambg_2"			"../hud/color_panel_red"
+		"teambg_2_lodef"	"../hud/color_panel_red"
+		"teambg_3"			"../hud/color_panel_blu"
+		"teambg_3_lodef"	"../hud/color_panel_blu"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 
 	"DisguiseNameLabel"
@@ -43,14 +63,14 @@
 		"xpos"			"85"
 		"ypos"			"40"
 		"zpos"			"1"
-		"wide"			"70"
+		"wide"			"100"
 		"tall"				"10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%disguisename%"
-		"textAlignment"		"East"
+		"textAlignment"		"West"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -63,14 +83,14 @@
 		"xpos"			"85"
 		"ypos"			"49"
 		"zpos"			"1"
-		"wide"			"70"
+		"wide"			"100"
 		"tall"				"10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%weaponname%"
-		"textAlignment"		"East"
+		"textAlignment"		"West"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -79,7 +99,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"158"
+		"xpos"			"210"
 		"ypos"			"39"
 		"zpos"			"5"
 		"wide"			"32"
@@ -100,7 +120,7 @@
 		"xpos"			"80"
 		"ypos"			"40"
 		"zpos"			"0"
-		"wide"			"110"
+		"wide"			"100"
 		"tall"				"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -109,5 +129,22 @@
 		"fillcolor"		"30 30 30 200"
 		"scaleImage"		"1"
 	}	
+	
+	"DisguiseMenuBG2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"DisguiseMenuBG2"
+		"xpos"			"210"
+		"ypos"			"40"
+		"zpos"			"0"
+		"wide"			"30"
+		"tall"				"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"30 30 30 200"
+		"scaleImage"		"1"
+	}		
 	
 }
