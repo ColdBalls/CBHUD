@@ -64,8 +64,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"6"
-		"wide"			"28"
-		"tall"			"22"
+		"wide"			"32"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
@@ -73,22 +73,7 @@
 		"fgcolor"		"255 255 255 255"
 		"labeltext"		"%Health%"
 	}
-	"PlayerStatusHealthValueSpecShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueSpecShadow"
-		"xpos"			"1"
-		"ypos"			"1"
-		"zpos"			"6"
-		"wide"			"28"
-		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"font"			"roboto21"
-		"fgcolor"		"0 0 0 255"
-		"labeltext"		"%Health%"
-	}
+	
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"
@@ -103,5 +88,22 @@
 		"textAlignment"	"center"	
 		"font"			"ScoreboardVerySmall"
 		"fgcolor"		"TFOrange"
-	}							
+	}			
+
+	"HealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"32"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
+	}
+	
 }
