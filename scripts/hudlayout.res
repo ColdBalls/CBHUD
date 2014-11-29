@@ -487,17 +487,6 @@
 		"MeterBG"		"Gray"
 	}
 	
-	HudMedicCharge
-	{
-		"fieldName"		"HudMedicCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"c70"	[$WIN32]
-		"wide"			"f0"
-		"tall"			"480"
-	}
-	
 	HudDemomanCharge
 	{
 		"fieldName"		"HudDemomanCharge"
@@ -962,11 +951,11 @@
 		"fieldName" "HudSpellMenu"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
+		"wide"	 "f0"
 		"tall"	 "480"
 		"zpos" 	"2"
-		"xpos"			"130"
-		"ypos"			"r61"
+		"xpos"			"0"
+		"ypos"			"0"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -1747,4 +1736,16 @@
         "wide"          "f0"
         "tall"          "480"   
 	}
+	
+	HudMiniGame
+	{
+		"fieldName" "HudMiniGame"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+	}	
+	}	
 }

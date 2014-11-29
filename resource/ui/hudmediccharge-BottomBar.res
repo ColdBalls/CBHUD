@@ -1,5 +1,17 @@
 "Resource/UI/HudMedicCharge.res" // Large ubercharge bar at the bottom of the screen
 {	
+
+	HudMedicCharge
+	{
+		"fieldName"		"HudMedicCharge"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"c70"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"480"
+	}
+
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"

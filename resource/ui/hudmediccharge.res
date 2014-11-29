@@ -1,5 +1,17 @@
 "Resource/UI/HudMedicCharge.res"
 {	
+
+	HudMedicCharge
+	{
+		"fieldName"		"HudMedicCharge"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-230"	[$WIN32]
+		"ypos"			"c70"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"480"
+	}
+
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -11,7 +23,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c33"
+		"xpos"			"263"
 		"ypos"			"25"
 		"zpos"			"2"
 		"wide"			"50"
@@ -32,7 +44,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelDropShadow"
-		"xpos"			"c34"
+		"xpos"			"264"
 		"ypos"			"26"
 		"zpos"			"2"
 		"wide"			"50"
@@ -54,7 +66,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"c34"
+		"xpos"			"264"
 		"ypos"			"24"
 		"zpos"			"2"
 		"wide"			"90"
@@ -78,7 +90,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"c-30"
+		"xpos"			"200"
 		"ypos"			"25"
 		"zpos"			"2"
 		"wide"			"60"
@@ -101,7 +113,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"c36"
+		"xpos"			"266"
 		"ypos"			"26"
 		"zpos"			"2"
 		"wide"			"38"
@@ -119,7 +131,7 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
-		"xpos"			"c36"
+		"xpos"			"266"
 		"ypos"			"31"
 		"zpos"			"2"
 		"wide"			"38"
@@ -138,7 +150,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"c36"
+		"xpos"			"266"
 		"ypos"			"36"
 		"zpos"			"2"
 		"wide"			"38"
@@ -157,7 +169,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"c36"
+		"xpos"			"266"
 		"ypos"			"41"
 		"zpos"			"2"
 		"wide"			"38"
