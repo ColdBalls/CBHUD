@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"99999"
-		"ypos"			"9"
+		"xpos"			"-50"
+		"ypos"			"13"
 		"zpos"			"3"
-		"wide"			"120"
+		"wide"			"130"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
@@ -47,11 +47,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"99999"
+		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"120"
-		"tall"			"2"
+		"tall"			"8"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -63,7 +63,7 @@
 		"fieldName"		"PlayerStatusHealthValueSpec"
 		"xpos"			"0"
 		"ypos"			"13"
-		"zpos"			"6"
+		"zpos"			"8"
 		"wide"			"32"
 		"tall"			"20"
 		"visible"		"1"
@@ -73,6 +73,23 @@
 		"fgcolor"		"255 255 255 255"
 		"labeltext"		"%Health%"
 	}
+	
+	"PlayerStatusHealthValueSpecBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueSpecBG"
+		"xpos"			"1"
+		"ypos"			"14"
+		"zpos"			"7"
+		"wide"			"33"
+		"tall"			"21"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"font"			"roboto21"
+		"fgcolor"		"0 0 0 255"
+		"labeltext"		"%Health%"
+	}	
 	
 	"PlayerStatusPlayerLevel"
 	{
@@ -103,7 +120,23 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"0 0 0 180"
 	}
+	
+	"HealthOver"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthOver"
+		"xpos"			"0"
+		"ypos"			"13"
+		"zpos"			"6"
+		"wide"			"32"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 80"
+	}	
 	
 }

@@ -643,7 +643,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"      "c-126"
-		"ypos"		"c69"
+		"ypos"		"c59"
 		"zpos"		"22"
 		
 		"wide"	 	"252"
@@ -669,7 +669,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c42"
+		"ypos"		"c32"
 		"zpos"		"22"
 		
 		"wide"	 	"252"
