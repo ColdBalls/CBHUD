@@ -1363,20 +1363,7 @@
 		"tall"			"300"
 		"PaintBackgroundType"	"0"
 	}
-	
-	"HudMenuSpyDisguise"
-	{
-		"fieldName" 	"HudMenuSpyDisguise"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"r130"
-		"ypos"			"c-150"
-		"zpos"			"4"
-		"wide"			"470"
-		"tall"			"300"	[$WIN32]
-		"PaintBackgroundType"	"0"
-	}	
-	
+
 	HudDemomanPipes
 	{
 		"fieldName"		"HudDemomanPipes"
