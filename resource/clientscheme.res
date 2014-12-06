@@ -59,6 +59,9 @@ Scheme
 		"MainMenuArmedBG"	"11 150 224 255" //old value: "0 204 255 255"
 		"MainMenuArmedBG2"	"224 30 115 255"
 		
+		"CBpink"		"224 30 115 255"
+		"CBblue"		"11 150 224 255"
+		
 		//stuff from goat_hud for winpanel
 		
 		"OmpText"			"255 255 255 255"
@@ -3301,6 +3304,186 @@ Scheme
 			}
 		}
 		
+		CBBorderBlack
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}
+			}
+		}		
+		
+		CBBorderBlackFat
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "1 0"
+				}
+				
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 1"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 1"
+				}
+			}
+		}			
+		CBBorderBlackFatter
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "1 0"
+				}				
+				"3"
+				{
+					"color" "0 0 0 255"
+					"offset" "2 0"
+				}
+				
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "1 0"
+				}				
+				"3"
+				{
+					"color" "0 0 0 255"
+					"offset" "2 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 1"
+				}				
+				"3"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 2"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 1"
+				}				
+				"3"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 2"
+				}
+			}
+		}		
 		
 		NoBorder
 		{
