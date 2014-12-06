@@ -367,7 +367,7 @@
 		"xpos"			"27"	[$WIN32]
 		"ypos"			"72"
 		"zpos"			"3"
-		"wide"			"100"	[$WIN32]
+		"wide"			"75"	[$WIN32]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -382,7 +382,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Class"
-		"xpos"			"80"
+		"xpos"			"105"
 		"ypos"			"72"
 		"zpos"			"3"
 		"wide"			"100"
@@ -436,7 +436,7 @@
 		"xpos"			"27"	[$WIN32]
 		"ypos"			"94"
 		"zpos"			"3"
-		"wide"			"100"	[$WIN32]
+		"wide"			"75"	[$WIN32]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -451,7 +451,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Class"
-		"xpos"			"80"
+		"xpos"			"105"
 		"ypos"			"94"
 		"zpos"			"3"
 		"wide"			"100"
@@ -505,7 +505,7 @@
 		"xpos"			"27"	[$WIN32]
 		"ypos"			"116"
 		"zpos"			"3"
-		"wide"			"100"	[$WIN32]
+		"wide"			"75"	[$WIN32]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -520,7 +520,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Class"
-		"xpos"			"80"
+		"xpos"			"105"
 		"ypos"			"116"
 		"zpos"			"3"
 		"wide"			"100"
@@ -631,7 +631,7 @@
 		"xpos"			"27"	[$WIN32]
 		"ypos"			"142"
 		"zpos"			"3"
-		"wide"			"100"	[$WIN32]
+		"wide"			"75"	[$WIN32]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -646,7 +646,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Class"
-		"xpos"			"80"
+		"xpos"			"105"
 		"ypos"			"142"
 		"zpos"			"3"
 		"wide"			"100"
@@ -773,7 +773,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"KillstreakIcon"
-		"xpos"					"130"
+		"xpos"					"135"
 		"ypos"					"145"
 		"zpos"			"3"
 		"wide"			"14"
