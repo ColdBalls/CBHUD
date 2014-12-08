@@ -2147,45 +2147,50 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
-				"tall"		"22"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"18"
 				"antialias"	"1"
+				"additive"	 "0"				
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
-				"tall"		"22"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"18"
 				"antialias"	"1"
+				"additive"	 "0"				
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
-				"tall"		"22"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"18"
 				"antialias"	"1"
+				"additive"	 "0"				
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
-				"tall"		"22"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"18"
 				"antialias"	"1"
+				"additive"	 "0"				
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
-				"tall"		"16"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"14"
 				"antialias"	"1"
+				"additive"	 "0"				
 			}
 		}
 		// this is the symbol font
