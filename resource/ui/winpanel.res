@@ -200,7 +200,7 @@
 		"fieldName"		"AdvancingTeamLabel"
 		"font"			"roboto18"
 		"xpos"			"0"
-		"ypos"			"8"
+		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"162"
 		"tall"			"20"
