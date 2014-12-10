@@ -78,8 +78,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"10"
-		"ypos"			"c-20"		
+		"xpos"			"c-120"
+		"ypos"			"c50"		
 		"wide"			"240"		
 		"tall"			"200"		
 		"visible"		"1"
@@ -88,10 +88,10 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"FreezePanelBGTitle"
-			"xpos" 		"32"
+			"xpos" 		"56"
 			"ypos" 		"23"
 			"zpos" 		"-1"
-			"wide" 		"186"
+			"wide" 		"178"
 			"tall" 		"20"
 			"autoResize" "0"
 			"pinCorner" "0"
@@ -104,11 +104,11 @@
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"		"FreezePanelBG"
-			"xpos"			"0"
-			"ypos"			"4"
-			"zpos"			"0"
-			"wide"			"240"
-			"tall"			"3"
+			"xpos" 			"236"
+			"ypos" 			"23"
+			"zpos" 			"-1"
+			"wide" 			"4"
+			"tall" 			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
@@ -145,7 +145,7 @@
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
-			"xpos"			"0"
+			"xpos"			"22"
 			"ypos"			"10"
 			"zpos"			"1"
 			"wide"			"32"
@@ -181,7 +181,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller2"
 			"font"			"roboto21"
-			"xpos"			"36"
+			"xpos"			"60"
 			"ypos"			"23"
 			"zpos"			"1"
 			"wide"			"150"
@@ -199,7 +199,7 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
-			"xpos"			"220"
+			"xpos"			"0"
 			"ypos"			"23"
 			"zpos"			"0"
 			"wide"			"20"
@@ -210,6 +210,22 @@
 			"scaleImage"		"1"	
 			"color_outline"		"52 48 45 255"
 		}	
+		
+		"AvatarBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"AvatarBG"
+			"xpos"		"0"
+			"ypos"		"23"
+			"zpos"		"-1"
+			"wide"		"20"
+			"tall"		"20"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" 	"1"
+			"enabled" 	"1"
+			"fillcolor" "30 30 30 200"
+		}		
 		
 		"NemesisSubPanel"
 		{

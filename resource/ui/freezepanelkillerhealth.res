@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"-50"
+		"xpos"			"99999"
 		"ypos"			"13"
 		"zpos"			"3"
 		"wide"			"130"
@@ -45,7 +45,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"0"
+		"xpos"			"999999"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"120"
@@ -71,22 +71,7 @@
 		"fgcolor"		"255 255 255 255"
 		"labeltext"		"%Health%"	
 	}
-	"PlayerStatusHealthValueFreezeBackground"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueFreezeBackground"
-		"xpos"			"1"
-		"ypos"			"14"
-		"zpos"			"7"
-		"wide"			"33"
-		"tall"			"21"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"font"			"roboto21"
-		"fgcolor"		"0 0 0 255"
-		"labeltext"		"%Health%"
-	}			
+	
 	"HealthBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -102,22 +87,5 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 180"
 	}
-	
-	"HealthOver"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthOver"
-		"xpos"			"0"
-		"ypos"			"13"
-		"zpos"			"6"
-		"wide"			"32"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 80"
-	}		
-	
 
 }
