@@ -431,8 +431,7 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"r210" 
-//		"xpos"			"999999"
-		"ypos"			"c113"
+		"ypos"			"c90"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"1000"
@@ -441,7 +440,7 @@
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		
-		"model_xpos"		"5"
+		"model_xpos"		"10"
 		"model_ypos"		"20"
 		"model_center_y"	"1"
 		"model_wide"		"54"
@@ -484,13 +483,13 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"robotoreg12"
+			"font"			"roboto14"
 			"fgcolor"		"255 255 255 255"
 			"xpos"			"5"
-			"ypos"			"5"
+			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"180"
-			"tall"			"10"
+			"tall"			"14"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -500,25 +499,5 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
-//		"attriblabel"
-//		{
-//			"ControlName"	"CExLabel"
-//			"fieldName"		"attriblabel"
-//			"font"			"ItemFontAttribLarge"
-//			"xpos"			"0"
-//			"ypos"			"30"
-//			"zpos"			"2"
-//			"wide"			"140"
-//			"tall"			"60"
-//			"autoResize"	"0"
-//			"pinCorner"		"0"
-//			"visible"		"1"
-//			"enabled"		"1"
-//			"labelText"		"%attriblist%"
-//			"textAlignment"	"south"
-//			"fgcolor"		"235 226 202 255"
-//			"centerwrap"	"1"
-//		}
 	}	
 }

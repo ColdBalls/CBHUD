@@ -320,19 +320,21 @@
 
 	"itempanel"
 	{
+	"itempanel"
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"r210" 
-		"ypos"			"c53"
+		"ypos"			"c90"
 		"zpos"			"1"
 		"wide"			"200"
-		"tall"			"480"
+		"tall"			"1000"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 150"
+		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		
-		"model_xpos"		"5"
+		"model_xpos"		"10"
 		"model_ypos"		"20"
 		"model_center_y"	"1"
 		"model_wide"		"54"
@@ -371,5 +373,25 @@
 			"useparentbg"		"1"
 		}
 		
-	}	
+		"ItemLabel"
+		{	
+			"ControlName"	"CExLabel"
+			"fieldName"		"ItemLabel"
+			"font"			"roboto14"
+			"fgcolor"		"255 255 255 255"
+			"xpos"			"5"
+			"ypos"			"3"
+			"zpos"			"1"
+			"wide"			"180"
+			"tall"			"14"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#FreezePanel_Item"
+			"textAlignment"	"north-west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+		}
+	}
 }
