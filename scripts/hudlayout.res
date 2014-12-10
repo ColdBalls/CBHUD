@@ -1681,10 +1681,10 @@
 		"fieldName"		"HudAlert"
 		"visible"		"0"
 		"enable"		"1"
-		"xpos"			"c-160"
-		"ypos"			"100"
-		"wide"			"320"
-		"tall"			"150"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 	}
 
 
