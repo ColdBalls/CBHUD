@@ -74,10 +74,10 @@
 		"labeltext"		"%Health%"
 	}
 	
-	"PlayerStatusHealthValueSpecBG"
+	"PlayerStatusHealthValueSpecDropshadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueSpecBG"
+		"fieldName"		"PlayerStatusHealthValueSpecDropshadow"
 		"xpos"			"1"
 		"ypos"			"14"
 		"zpos"			"7"
