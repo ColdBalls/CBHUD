@@ -417,6 +417,86 @@
         "alpha" "85"
     }
 	
+// ==============COD hitmarker crosshair===============	
+	
+	CODxhair
+	{
+		"ControlName"		"EditablePanel"
+		"fieldname"			"CODxhair"
+		"visible"			"0"
+		"enabled"			"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"CODxhairLeftTop"
+		{
+			"xpos"				"c-20"
+			"ypos"				"c-20"
+			"wide"				"26"
+			"tall"				"24"
+			"fgcolor"			"0 0 0 0"
+			"controlName"		"ceXLabel"
+			"fieldName"			"CODxhairLeftTop"
+			"visible"			"1"
+			"visible_minmode"	"1"
+			"enabled"			"1"
+			"zpos"				"1"
+			"font"				"CODHitmarker"
+			"labelText"			"\"
+			"textAlignment"		"center" 
+		}
+		"CODxhairLeftBottom"
+		{
+			"xpos"				"c-20"
+			"ypos"				"c-5"
+			"wide"				"26"
+			"tall"				"24"
+			"fgcolor"			"0 0 0 0"
+			"controlName"		"ceXLabel"
+			"fieldName"			"CODxhairLeftBottom"
+			"visible"			"1"
+			"visible_minmode"	"1"
+			"enabled"			"1"
+			"zpos"				"1"
+			"font"				"CODHitmarker"
+			"labelText"			"/"
+			"textAlignment"		"center" 
+		}
+		"CODxhairRightTop"
+		{
+			"xpos"				"c-5"
+			"ypos"				"c-20"
+			"wide"				"26"
+			"tall"				"24"
+			"fgcolor"			"0 0 0 0"
+			"controlName"		"ceXLabel"
+			"fieldName"			"CODxhairRightTop"
+			"visible"			"1"
+			"visible_minmode"	"1"
+			"enabled"			"1"
+			"zpos"				"1"
+			"font"				"CODHitmarker"
+			"labelText"			"/"
+			"textAlignment"		"center" 
+		}
+		"CODxhairRightBottom"
+		{
+			"xpos"				"c-5"
+			"ypos"				"c-5"
+			"wide"				"26"
+			"tall"				"24"
+			"fgcolor"			"0 0 0 0"
+			"controlName"		"ceXLabel"
+			"fieldName"			"CODxhairRightBottom"
+			"visible"			"1"
+			"visible_minmode"	"1"
+			"enabled"			"1"
+			"zpos"				"1"
+			"font"				"CODHitmarker"
+			"labelText"			"\"
+			"textAlignment"		"center" 
+		}
+	}	
+	
 	//#############################
 	//End of crosshairs
 	//#############################

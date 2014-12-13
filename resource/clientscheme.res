@@ -669,6 +669,19 @@ Scheme
 				"antialias" "1"
 				"outline" "0"
 			}
+		}	
+
+		"CODHitmarker"
+		{
+			"1"
+			{
+				"name"		"xhairs"
+				"tall"		"4"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
+				"outline"	"0"
+			}
 		}		
 		
 		"DamageFont"
@@ -5028,6 +5041,11 @@ Scheme
 		{
 			"font" "resource/fonts/HudasIscariote.otf"
 			"name" "Hudas Iscariote"
+		}		
+		"18" 
+		{
+			"font" "resource/fonts/xhairs.otf"
+			"name" "xhairs"
 		}		
 		
 	}
