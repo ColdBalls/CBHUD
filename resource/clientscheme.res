@@ -682,6 +682,32 @@ Scheme
 				"antialias"	"1"
 				"outline"	"0"
 			}
+		}	
+
+		"SeekerXhair"
+		{
+			"1"
+			{
+			"name"    "tf2cross"
+			"tall"    "11"
+			"weight"  "0"
+			"antialias"  "1"
+			"additive"  "0"
+			"outline"   "0"
+			}
+		}			
+		
+		"SeekerXhairOutline"
+		{
+			"1"
+			{
+			"name"    "tf2cross"
+			"tall"    "11"
+			"weight"  "0"
+			"antialias"  "1"
+			"additive"  "0"
+			"outline"   "1"
+			}
 		}		
 		
 		"DamageFont"
@@ -5046,6 +5072,11 @@ Scheme
 		{
 			"font" "resource/fonts/xhairs.otf"
 			"name" "xhairs"
+		}	
+		"19"
+		{
+			"font"     "resource/fonts/tf2cross.ttf"
+			"name"     "tf2cross"
 		}		
 		
 	}

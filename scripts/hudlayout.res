@@ -171,6 +171,48 @@
 		"textAlignment"	"center"
 	}
 	
+	SeekerXhair
+	{
+		"controlName"	"CExLabel"
+		"fieldName"     "SeekerXhair"
+		
+		"visible"		"0"
+		"enabled"		"0"
+		
+		"zpos"			"1"
+		"xpos"			"c-14"
+		"ypos"			"c-13"
+		
+		"wide"			"24"
+		"tall"			"24" 
+		
+		"font"			"SeekerXhair"
+		"labelText"		"x"
+		"fgcolor"		"235 226 202 255"
+		"textAlignment"	"center"
+	}	
+
+	SeekerXhairOutline
+	{
+		"controlName"	"CExLabel"
+		"fieldName"     "SeekerXhairOutline"
+		
+		"visible"		"0"
+		"enabled"		"0"
+		
+		"zpos"			"1"
+		"xpos"			"c-14"
+		"ypos"			"c-13"
+		
+		"wide"			"24"
+		"tall"			"24" 
+		
+		"font"			"SeekerXhairOutline"
+		"labelText"		"x"
+		"fgcolor"		"235 226 202 255"
+		"textAlignment"	"center"
+	}	
+	
 	//##########################
 		//Fog crosshairs V3 (experimental)
 	//##########################
@@ -424,7 +466,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldname"			"CODxhair"
 		"visible"			"0"
-		"enabled"			"0"
+		"enabled"			"1"
 		"wide"				"f0"
 		"tall"				"480"
 		"CODxhairLeftTop"
