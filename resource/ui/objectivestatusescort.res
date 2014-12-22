@@ -189,7 +189,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"robotoreg10	"
+			"font"			"robotoreg10"
 			"xpos"			"21"
 			"ypos"			"52"
 			"zpos"			"2"
