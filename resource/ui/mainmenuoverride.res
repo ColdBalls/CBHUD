@@ -174,7 +174,7 @@
         "font"          "roboto12"
         "textAlignment" "east"
         "paintbackground"   "0" 
-		"Labeltext"		"CBHUD version 1.4"
+		"Labeltext"		"CBHUD version 1.5"
 	}	
 	
 	"MainMenuBG1"
