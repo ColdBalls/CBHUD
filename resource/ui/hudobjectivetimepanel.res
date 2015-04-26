@@ -155,4 +155,32 @@
 		"fieldName"		"SetupBG"
 		"xpos"			"999999"	[$WIN32]	
 	}	
+	
+	"ServerTimeLimitLabel"
+	{
+		"ControlName" "CExLabel"
+		"fieldName" "ServerTimeLimitLabel"
+		"xpos" "c-25"
+		"ypos" "24"
+		"zpos" "5"
+		"wide" "50"
+
+		"tall" "12"
+
+		"visible" "1"
+		"enabled" "1"
+		"labelText" "%servertimeleft%"
+		"textAlignment" "center"
+		"dulltext" "0"
+		"brighttext" "1"
+		"wrap" "0"
+		"font" "roboto12"
+		"fgcolor" "255 255 255 255"
+	}
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName" "CTFImagePanel"
+		"fieldName" "ServerTimeLimitLabelBG"
+		"xpos" "999999" [$WIN32]
+	} 
 }
