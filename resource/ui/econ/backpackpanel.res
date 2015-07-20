@@ -80,7 +80,8 @@
 				"wide"			"f1"
 				"tall"			"f-3"
 				"textinsetx"	"8"
-				"autoResize"	"1"
+				"autoResize"	"0"
+				"skip_autoresize"	"1"
 				"pinCorner"		"0"	
 				"visible"		"0"
 				"enabled"		"1"
@@ -124,6 +125,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type" "1" // High quality item image
 			}
 			
 			
@@ -345,7 +347,6 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
-		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"

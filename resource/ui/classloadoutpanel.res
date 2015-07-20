@@ -42,15 +42,17 @@
 			"tall"			"70"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"0 221 255 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"model_ypos"	"3"
-			"model_tall"	"52"
-			"text_ypos"		"47"
-			"text_center"	"1"
-			"name_only"		"1"
+			"model_center_x"	"1"
+			"model_ypos"		"5"			
+			"model_tall"		"55"
+			"model_wide"		"82"
+			"text_ypos"			"54"
+			"text_center"		"1"
+			"name_only"			"1"
 			
 			"attriblabel"
 			{
@@ -62,6 +64,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type" "1" // High quality item image
 			}
 		}
 
@@ -77,7 +80,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"+"
+			"labelText"		""
 			"font"			"roboto12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
@@ -247,7 +250,7 @@
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
-		"wide"			"250"
+		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
@@ -255,11 +258,29 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
-		"text_ypos"			"0"
+		"text_ypos"			"15"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"30"
+		"padding_height"	"15"
+		
+		"attriblabel"
+		{
+			"font"			"ItemFontAttribLarge"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"center"
+			"fgcolor"		"117 107 94 255"
+			"centerwrap"	"1"
+		}		
 	}
 	
 	"PassiveAttribsLabel"

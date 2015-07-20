@@ -14,6 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"medal_width"		"0"		
 		"avatar_width"		"57"	[$WIN32]
 		"name_width"		"70"	[$WIN32]
 		"status_width"		"15"	[$WIN32]
@@ -21,6 +22,8 @@
 		"class_width"		"15"	[$WIN32]
 		"score_width"		"20"
 		"ping_width"		"20"	[$WIN32]
+		"stats_width"		"30"
+		"killstreak_width"	"20"		
 	}
 	
 	"PingBG"
@@ -623,11 +626,10 @@
 			"visible"		"1"
 		}
 		
-		
-		"KillsLabel"
+		"ColonLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"KillsLabel"
+			"fieldName"	"ColonLabel"
 			"font"		"robotoreg40"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	":"
@@ -639,6 +641,26 @@
 			"zpos"		"3"
 			"wide"		"10"
 			"tall"		"30"
+			"autoResize"	"0"
+			"pinCorner"	"0"
+			"visible"	"1"
+			"enabled"	"1"
+		}		
+	
+		"KillsLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"	"KillsLabel"
+			"font"		"robotoreg40"
+			"fgcolor"	"255 255 255 255"
+			"labelText"	":"
+			"textAlignment"	"center"
+			"textinsetx"	"10"
+			"xpos"		"999999999999"
+			"ypos"		"8"	[$WIN32]
+			"zpos"		"3"
+			"wide"		"0"
+			"tall"		"0"
 			"autoResize"	"0"
 			"pinCorner"	"0"
 			"visible"	"1"

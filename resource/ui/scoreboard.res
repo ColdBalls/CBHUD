@@ -14,6 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"medal_width"		"0"
 		"avatar_width"		"57"	[$WIN32]
 		"name_width"		"70"	[$WIN32]
 		"status_width"		"15"	[$WIN32]
@@ -21,6 +22,8 @@
 		"class_width"		"15"	[$WIN32]
 		"score_width"		"20"
 		"ping_width"		"20"	[$WIN32]
+		"stats_width"		"30"
+		"killstreak_width"	"20"
 	}
 	
 	"PingBG"
@@ -606,6 +609,25 @@
 			"visible"		"1"
 		}
 		
+		"ColonLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"	"ColonLabel"
+			"font"		"robotoreg40"
+			"fgcolor"	"255 255 255 255"
+			"labelText"	":"
+			"textAlignment"	"center"
+			"textinsetx"	"10"
+			"xpos"		"60"
+			"ypos"		"8"	[$WIN32]
+			"zpos"		"3"
+			"wide"		"10"
+			"tall"		"30"
+			"autoResize"	"0"
+			"pinCorner"	"0"
+			"visible"	"1"
+			"enabled"	"1"
+		}			
 		
 		"KillsLabel"
 		{
@@ -616,7 +638,7 @@
 			"labelText"	":"
 			"textAlignment"	"center"
 			"textinsetx"	"10"
-			"xpos"		"60"
+			"xpos"		"9999999"
 			"ypos"		"8"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"10"
@@ -1134,6 +1156,83 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}	
+		
+		"SupportLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SupportLabel"
+			"font"			"robotoreg10"
+			"fgcolor"	"255 255 255 255"
+			"labelText"		"#TF_Scoreboard_Support"
+			"textAlignment"	"West"
+			"xpos"			"20"	[$WIN32]
+			"ypos"			"165"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Support"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Support"
+			"font"			"robotoreg10"
+			"fgcolor"	"255 255 255 255"
+			"labelText"		"%support%"
+			"textAlignment"	"Center"		[$WIN32]
+			"textinsetx"	"0"
+			"xpos"			"50"	[$WIN32]
+			"ypos"			"165"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+
+		"DamageLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DamageLabel"
+			"font"			"robotoreg10"
+			"fgcolor"	"255 255 255 255"
+			"labelText"		"#TF_Scoreboard_Damage"
+			"textAlignment"	"West"
+			"xpos"			"20"	[$WIN32]
+			"ypos"			"175"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Damage"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage"
+			"font"			"robotoreg10"
+			"fgcolor"	"255 255 255 255"
+			"labelText"		"%damage%"
+			"textAlignment"	"Center"		[$WIN32]
+			"textinsetx"	"0"
+			"xpos"			"50"	[$WIN32]
+			"ypos"			"175"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}		
+		
 		"MapName"
 		{
 			"ControlName"	"CExLabel"
