@@ -26,6 +26,56 @@
 		"killstreak_width"	"20"		
 	}
 	
+	"GunMettleCoverUp1"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"GunMettleCoverUp1"
+		"xpos"			"c-239"
+		"xpos_minmode"			"11"
+		"ypos"			"106"
+		"ypos_minmode"			"44"
+		"zpos"			"21"
+		"wide"			"4"
+		"tall"				"218"
+		"tall_minmode"				"134"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"50 50 50 255"
+		"scaleImage"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
+	
+	"GunMettleCoverUp2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"GunMettleCoverUp2"
+		"xpos"			"c1"
+		"xpos_minmode"			"11"
+		"ypos"			"106"
+		"ypos_minmode"			"212"
+		"zpos"			"21"
+		"wide"			"4"
+		"tall"				"218"
+		"tall_minmode"				"134"	
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"50 50 50 255"
+		"scaleImage"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
+	
 	"PingBG"
 	{
 		"ControlName"		"ImagePanel"
