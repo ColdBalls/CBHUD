@@ -4,20 +4,20 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"ObjectiveStatusTimePanel"
-		"xpos"			"0"
+		"xpos"			"c-50"
 		"ypos"			"0"	[$WIN32]
 		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"480"
+		"wide"			"200"
+		"tall"			"150"
 		"visible"		"0"
 		"enabled"		"1"
-		"delta_item_x"		"c0"	[$WIN32]
-		"delta_item_start_y"	"40"
-		"delta_item_end_y"	"40"
-		"PositiveColor"		"0 255 0 255"
-		"NegativeColor"		"255 0 0 255"
-		"delta_lifetime"	"0"
-		"delta_item_font"	"roboto14"
+		"delta_item_x"			"80"
+		"delta_item_start_y"	"8"
+		"delta_item_end_y"	"8"
+		"PositiveColor"		"11 150 224 255"
+		"NegativeColor"		"224 30 115 255"
+		"delta_lifetime"	"1.7"
+		"delta_item_font"	"roboto18"
 		
 		"TimePanelValue"
 		{
@@ -25,7 +25,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"roboto18"
 			"fgcolor"		"255 255 255 255"
-			"xpos"			"c-25"
+			"xpos"			"25"
 			"ypos"			"5"
 			"zpos"			"4"
 			"wide"			"50"
@@ -39,7 +39,7 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"TimePanelValueBG"
-			"xpos"			"c-25"
+			"xpos"			"25"
 			"ypos"			"5"
 			"zpos"			"-10"
 			"wide"			"50"
