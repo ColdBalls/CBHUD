@@ -1287,6 +1287,156 @@ Scheme
 				"antialias"	"1"
 			}
 		}		
+
+		"cbhud10"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"10"
+				"antialias"	"1"
+			}
+		}
+
+		"cbhud12"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"12"
+				"antialias"	"1"
+			}
+		}
+
+		"cbhud14"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"14"
+				"antialias"	"1"
+			}
+		}
+
+		"cbhud16"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"16"
+				"antialias"	"1"
+			}
+		}
+
+		"cbhud18"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"18"
+				"antialias"	"1"
+			}
+		}
+		"cbhud20"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"20"
+				"antialias"	"1"
+			}
+		}
+		"cbhud21"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"21"
+				"antialias"	"1"
+			}
+		}
+		"cbhud24"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"24"
+				"antialias"	"1"
+			}
+		}
+		"cbhud26"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"26"
+				"antialias"	"1"
+			}
+		}
+		"cbhud28"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"28"
+				"antialias"	"1"
+			}
+		}
+		"cbhud30"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"30"
+				"antialias"	"1"
+			}
+		}
+		"cbhud32"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"32"
+				"antialias"	"1"
+			}
+		}
+		"cbhud34"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"34"
+				"antialias"	"1"
+			}
+		}
+		"cbhud36"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"36"
+				"antialias"	"1"
+			}
+		}
+		"cbhud40"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"40"
+				"antialias"	"1"
+			}
+		}
+
+		"cbhud48"
+		{
+			"1"
+			{
+				"name"		"cbhud"
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}		
 		
 		"Blocks42"
 		{
@@ -3525,7 +3675,7 @@ Scheme
 	Borders
 	{
 	
-		CBBorderWhite
+		CBBorderWhite1
 		{
 			"inset" "0 0 0 0"
 			Left
@@ -3565,7 +3715,148 @@ Scheme
 			}
 		}
 		
-		CBBorderBlack
+		CBBorderWhite2
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "255 255 255 255"
+					"offset" "1 0"
+				}
+				
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "255 255 255 255"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 1"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 1"
+				}
+			}
+		}			
+		CBBorderWhite3
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "255 255 255 255"
+					"offset" "1 0"
+				}				
+				"3"
+				{
+					"color" "255 255 255 255"
+					"offset" "2 0"
+				}
+				
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "255 255 255 255"
+					"offset" "1 0"
+				}				
+				"3"
+				{
+					"color" "255 255 255 255"
+					"offset" "2 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 1"
+				}				
+				"3"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 2"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 1"
+				}				
+				"3"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 2"
+				}
+			}
+		}			
+		
+		CBBorderBlack1
 		{
 			"inset" "0 0 0 0"
 			Left
@@ -3605,7 +3896,7 @@ Scheme
 			}
 		}		
 		
-		CBBorderBlackFat
+		CBBorderBlack2
 		{
 			"inset" "0 0 0 0"
 			Left
@@ -3665,7 +3956,7 @@ Scheme
 				}
 			}
 		}			
-		CBBorderBlackFatter
+		CBBorderBlack3
 		{
 			"inset" "0 0 0 0"
 			Left
@@ -6066,6 +6357,10 @@ Scheme
 			"font"     "resource/fonts/tf2cross.ttf"
 			"name"     "tf2cross"
 		}		
-		
+		"20"
+		{
+			"font"     "resource/fonts/cbhud.ttf"
+			"name"     "cbhud"
+		}			
 	}
 }

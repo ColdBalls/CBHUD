@@ -586,7 +586,7 @@
 		"alpha"			"200"
 		"PaintBackgroundType"	"0"
 		"Paintborder"	"1"
-		"border"		"CBBorderBlackFatter"
+		"border"		"CBBorderBlack3"
 	}		
 	
 }

@@ -1,73 +1,35 @@
 "GameMenu" [$WIN32]
 {
-
-	"MenuButton1" //server browser button, only at menu
-	{
-		"label" "C" 
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
-
-	"MenuButton1Alt" //Server browser button, only in-game
-	{
-		"label" "O" 
-		"command" "ResumeGame"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
-	}	
-
-	"MenuButtonRight" //Quit button, only at menu
-	{
-		"label" "L" 
-		"command" "engine replay_confirmquit"
-		"subimage" "glyph_quit"
-		"OnlyAtMenu" "1"
-	}	
-	
-	"MenuButtonRightAlt" //Disconnect button, only in-game
-	{
-		"label" "n" 
-		"command" "engine disconnect"
-		"subimage" "glyph_quit"
-		"OnlyInGame" "1"
-	}	
-	
-	"MenuButton2" //quickplay button
-	{
-		"label" "" 
-		"command" "quickplay"
-		"subimage" "glyph_multiplayer"
-	}
-
-	"MenuButton3" //mvm button
-	{
-		"label" "MvM" 
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
-	
-	"MenuButton3Alt" //Server browser button, only in-game
-	{
-		"label" "C" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
-	}	
-
 	"ResumeGameButton"
 	{
 		"label"			"Resume"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
+	}	
+	
+	"DisconnectButton"
+	{
+		"label"			"Disconnect"
+		"command"		"engine disconnect"
+		"OnlyInGame"	"1"
+		"subimage" ""
+	}	
+	
+	"QuitButton"
+	{
+		"label"			"Quit"
+		"command"		"engine replay_confirmquit"
+		"OnlyAtMenu" "1"
+		"subimage" ""
 	}
+	
 	"QuickplayButton"
 	{
 		"label" "Quickplay" 
 		"command" "quickplay"
 		"subimage" "glyph_multiplayer"
+		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
@@ -78,7 +40,7 @@
 	}
 	"PlayPVEButton"
 	{
-		"label" "Play Co-op" 
+		"label" "#MMenu_PlayCoop" 
 		"command" "playpve"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
@@ -90,17 +52,17 @@
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 		"OnlyWhenCompetitiveEnabled" "1"
-	}
+	}	
 	"ServerBrowserButton"
 	{
-		"label" "Servers" 
+		"label" "#MMenu_Servers" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
 	} 
 	"ChangeServerButton"
 	{
-		"label" "Servers" 
+		"label" "#MMenu_ChangeServer" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
@@ -110,10 +72,39 @@
 		"label" "Replays"
 		"command" "engine replay_reloadbrowser"
 		"subimage" "glyph_tv"
+	}	
+	"SettingsButton"
+	{
+		"label" "Options"
+		"command" "OpenOptionsDialog"
+		"subimage" "glyph_options"
+	}	
+	"TF2SettingsButton"
+	{
+		"label" "         Adv. options"
+		"command" "opentf2options"
+		"subimage" "glyph_options"
+	}	
+	"ToggleScoreboard"
+	{
+		"label" "n"   
+		"command" "engine toggle cl_hud_minmode"
+		"tooltip" "Toggle scoreboard"
+	}		
+	"ShowNewsStuffButton"
+	{
+		"label" "%"   
+		"command" "motd_show"
+	}	
+	"OpenConsole"
+	{
+		"label" "l"   
+		"command" "engine con_enable 1;toggleconsole"
+		"tooltip" "Open console"
 	}
 	"SteamWorkshopButton"
 	{
-		"label" "Workshop"
+		"label" "#MMenu_SteamWorkshop"
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_steamworkshop"
 	}
@@ -135,10 +126,10 @@
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
-		"label" "+"
+		"label" "Create server"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
-		"tooltip" "Create Server"
+		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
 	"GeneralStoreButton"
 	{
@@ -148,7 +139,7 @@
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "Items"
+		"label" "Loadout"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
@@ -157,7 +148,7 @@
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			"m"
+		"label"			""
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
@@ -165,7 +156,7 @@
 	}
 	"MutePlayersButton"
 	{
-		"label"			"i"
+		"label"			""
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
@@ -179,17 +170,7 @@
 		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
 	}
+
+
 	
-	"OpenConsole"
-	{
-		"label" "l"   
-		"command" "engine con_enable 1;toggleconsole"
-		"tooltip" "Open console"
-	}	
-	"ToggleScoreboard"
-	{
-		"label" "n"   
-		"command" "engine toggle cl_hud_minmode"
-		"tooltip" "Toggle scoreboard"
-	}	
 }
