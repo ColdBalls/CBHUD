@@ -1023,7 +1023,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"	"numScout"
 		"xpos"			"7"
-		"ypos"			"50"
+		"ypos"			"49"
 		"zpos"			"2"		
 		"wide"			"50"
 		"tall"			"8"
@@ -1456,10 +1456,10 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_3"		"../hud/character_blue_bg"
+		"scaleImage"		"1"
+		"image"			"../hud/tournament_panel_red"
+		"teambg_2"		"../hud/tournament_panel_red"
+		"teambg_3"		"../hud/tournament_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -1480,9 +1480,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_3"		"../hud/character_blue_bg"
+		"image"			"../hud/tournament_panel_red"
+		"teambg_2"		"../hud/tournament_panel_red"
+		"teambg_3"		"../hud/tournament_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -1503,9 +1503,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_3"		"../hud/character_blue_bg"
+		"image"			"../hud/tournament_panel_red"
+		"teambg_2"		"../hud/tournament_panel_red"
+		"teambg_3"		"../hud/tournament_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -1526,9 +1526,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_3"		"../hud/character_blue_bg"
+		"image"			"../hud/tournament_panel_red"
+		"teambg_2"		"../hud/tournament_panel_red"
+		"teambg_3"		"../hud/tournament_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -1549,9 +1549,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_3"		"../hud/character_blue_bg"
+		"image"			"../hud/tournament_panel_red"
+		"teambg_2"		"../hud/tournament_panel_red"
+		"teambg_3"		"../hud/tournament_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -1572,9 +1572,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_3"		"../hud/character_blue_bg"
+		"image"			"../hud/tournament_panel_red"
+		"teambg_2"		"../hud/tournament_panel_red"
+		"teambg_3"		"../hud/tournament_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -1595,9 +1595,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_3"		"../hud/character_blue_bg"
+		"image"			"../hud/tournament_panel_red"
+		"teambg_2"		"../hud/tournament_panel_red"
+		"teambg_3"		"../hud/tournament_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -1618,9 +1618,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_3"		"../hud/character_blue_bg"
+		"image"			"../hud/tournament_panel_red"
+		"teambg_2"		"../hud/tournament_panel_red"
+		"teambg_3"		"../hud/tournament_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -1641,9 +1641,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_3"		"../hud/character_blue_bg"
+		"image"			"../hud/tournament_panel_red"
+		"teambg_2"		"../hud/tournament_panel_red"
+		"teambg_3"		"../hud/tournament_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
