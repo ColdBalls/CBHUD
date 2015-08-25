@@ -447,7 +447,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
-		"labelText"		""
+		"labelText"		"Z"
 		"xpos"			"c212"
 		"ypos"			"c-230"
 		"zpos"			"2"
@@ -465,6 +465,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
+		"Font"			"cbhud20"
+		"TextAlignment"	"Center"		
+		
 		"defaultBgColor_override"	"255 255 255 255"
 		"armedBgColor_override"		"MainMenuArmedBG2"
 		"depressedBgColor_override"	"MainMenuArmedBG"
@@ -484,8 +487,8 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"1"
-			"wide"			"17"
-			"tall"			"17"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -497,7 +500,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TauntLoadoutButton"
-		"labelText"		""
+		"labelText"		"!"
 		"xpos"			"c239"
 		"ypos"			"c-230"
 		"zpos"			"2"
@@ -514,6 +517,9 @@
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"Font"			"cbhud20"
+		"TextAlignment"	"Center"
 		
 		"defaultBgColor_override"	"255 255 255 255"
 		"armedBgColor_override"		"MainMenuArmedBG2"
@@ -533,8 +539,8 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"1"
-			"wide"			"17"
-			"tall"			"17"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
