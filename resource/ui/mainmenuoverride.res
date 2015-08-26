@@ -4729,4 +4729,25 @@
 			"angles_z"		"0"
 		}
 	}
+	
+	"CBhud"
+    {
+        "ControlName"   "CExLabel"
+        "fieldName"     "CBhud"
+        "xpos"          "r210"
+        "ypos"          "0"
+        "wide"          "150"
+        "tall"          "12"
+        "autoResize"    "0"
+        "pinCorner"     "3"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "textinsetx"    "0"
+        "textinsety"    "0"
+        "font"          "robotoreg12"
+        "textAlignment" "East"
+        "paintbackground"   "0" 
+		"Labeltext"		"CBHUD version 1.7"
+	}	
 }
