@@ -17,16 +17,32 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"					"c-101"
+		"xpos"					"c-103"
 		"ypos"					"c120"
 		"zpos"			"0"
-		"wide"			"15"
-		"tall"			"15"
+		"wide"			"17"
+		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"			
 	}
+	
+	"KSlogoBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"KSlogoBG"
+		"xpos"					"c-102"
+		"ypos"					"c121"
+		"zpos"			"-1"
+		"wide"			"17"
+		"tall"			"17"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_streak"
+		"scaleImage"	"1"		
+		"drawcolor" 	"0 0 0 255"		
+	}	
 	
 	"ItemEffectMeterLabel"
 	{
