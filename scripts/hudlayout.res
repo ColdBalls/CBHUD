@@ -765,7 +765,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"      "c-126"
-		"ypos"		"c59"
+		"ypos"		"c57"
 		"zpos"		"22"
 		
 		"wide"	 	"252"
