@@ -884,7 +884,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect"
-		"xpos"			"0"
+		"xpos"			"999999"
 		"ypos"			"c-100"
 		"zpos"			"5"
 		"wide"			"f0"
@@ -1364,10 +1364,10 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"c-140"
+		"xpos"			"c-230"
 		"ypos"			"r280"
-		"zpos"			"6"		
-		"wide"			"160"
+		"zpos"			"0"		
+		"wide"			"280"
 		"tall"			"280"
 		
 		"autoResize"	"0"
@@ -1376,7 +1376,7 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"6"
+		"fov"			"13"
 		"allow_rot"		"0"
 
 		"paintbackground" "1"		
@@ -1392,7 +1392,7 @@
 			"angles_z" "0"
 			"origin_x" "500"
 			"origin_y" "-3"
-			"origin_z" "-40"
+			"origin_z" "-50"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
