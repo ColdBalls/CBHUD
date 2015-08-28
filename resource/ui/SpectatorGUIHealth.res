@@ -57,10 +57,10 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	"PlayerStatusHealthValueSpecBG"
+	"PlayerStatusHealthValueSpec"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueSpecBG"
+		"fieldName"		"PlayerStatusHealthValueSpec"
 		"xpos"			"0"
 		"ypos"			"13"
 		"zpos"			"6"
@@ -90,6 +90,42 @@
 		"fgcolor"		"TFOrange"
 	}			
 
+	"SpecHealthBlueBar"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"SpecHealthBlueBar"
+		"xpos"			"0"
+		"ypos"			"13"
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"CBHealthOverheal"
+		"scaleImage"		"1"
+		"alpha"			"0"
+	}	
+	
+	"SpecHealthRedBar"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"SpecHealthRedBar"
+		"xpos"			"0"
+		"ypos"			"13"
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"CBHealthLow"
+		"scaleImage"		"1"
+		"alpha"			"0"
+	}	
+	
 	"HealthBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -103,7 +139,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"25 25 25 255"
+		"alpha"			"230"
 	}
 	
 }

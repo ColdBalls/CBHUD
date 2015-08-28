@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"30 30 30 200"
+		"fillcolor"		"25 25 25 200"
 	}
 	"TargetIDBG"
 	{

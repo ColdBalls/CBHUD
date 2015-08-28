@@ -68,7 +68,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
 		"xpos"			"c-30"
-		"ypos"			"c20"
+		"ypos"			"c85"
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"50"
@@ -99,7 +99,7 @@
 			"textAlignment"	"Center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"roboto18"
+			"font"			"roboto21"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -119,7 +119,7 @@
 			"textAlignment"	"Center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"roboto18"
+			"font"			"roboto21"
 			"fgcolor"		"0 0 0 255"
 		}		
 	}
