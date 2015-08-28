@@ -133,8 +133,8 @@
 		"enabled"		"1"
 		"tabPosition"		"3"
 		"labelText"		"&3"
-		"textAlignment"		"west"
-		"textinsetx"		"10"
+		"textAlignment"		"South-East"
+		"textinsetx"		"4"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"paintborder"		"1"
@@ -142,19 +142,19 @@
 		"team"			"3"		// team blue
 		"associated_model"	"bluedoor"
 		"hover"			"2.0"
-		"font"			"roboto18"
+		"font"			"robotoreg14"
 
-		"fgcolor"					"0 0 0 0"
-		"defaultFgColor_override" 	"0 0 0 0"
-		"armedFgColor_override" 	"0 0 0 0"
-		"depressedFgColor_override" 	"0 0 0 0"
-		"selectedFgColor_override" 		"0 0 0 0"
-
-		"bgcolor"					"0 0 0 0"
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
+		"bgcolor"						"0 0 0 0"
+		"defaultBgColor_override" 		"0 0 0 0"
+		"armedBgColor_override" 		"0 0 0 0"
 		"depressedBgColor_override" 	"0 0 0 0"
-		"selectedBgColor_override" 		"0 0 0 0"
+		"selectedBgColor_override"	 	"0 0 0 0"
+		
+		"Fgcolor"						"0 0 0 0"
+		"defaultFgColor_override" 		"0 0 0 0"
+		"armedFgColor_override" 		"255 255 255 255"
+		"depressedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override"	 	"255 255 255 255"
 
 		"border_default"			"NoBorder"
 		"border_armed"				"CBBorderWhite2"
@@ -176,8 +176,8 @@
 		"enabled"		"1"
 		"tabPosition"		"4"
 		"labelText"			"&4"	[$WIN32]
-		"textAlignment"		"West"
-		"textinsetx"		"10"
+		"textAlignment"		"North-East"
+		"textinsetx"		"4"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"paintborder"		"1"
@@ -185,19 +185,19 @@
 		"team"			"2"		// team red
 		"associated_model"	"reddoor"	
 		"hover"			"2.0"
-		"font"			"roboto18"
+		"font"			"robotoreg14"
 
-		"fgcolor"					"0 0 0 0"
-		"defaultFgColor_override" 	"0 0 0 0"
-		"armedFgColor_override" 	"0 0 0 0"
-		"depressedFgColor_override" 	"0 0 0 0"
-		"selectedFgColor_override" 		"0 0 0 0"
-
-		"bgcolor"					"0 0 0 0"
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
+		"bgcolor"						"0 0 0 0"
+		"defaultBgColor_override" 		"0 0 0 0"
+		"armedBgColor_override" 		"0 0 0 0"
 		"depressedBgColor_override" 	"0 0 0 0"
-		"selectedBgColor_override" 		"0 0 0 0"
+		"selectedBgColor_override"	 	"0 0 0 0"
+		
+		"Fgcolor"						"0 0 0 0"
+		"defaultFgColor_override" 		"0 0 0 0"
+		"armedFgColor_override" 		"255 255 255 255"
+		"depressedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override"	 	"255 255 255 255"
 
 		"border_default"			"NoBorder"
 		"border_armed"				"CBBorderWhite2"
@@ -217,24 +217,24 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"1"
-		"labelText"		"?"	[$WIN32]
-		"textAlignment"		"Center"
-		"textinsetx"		"10"
+		"labelText"		"&1"
+		"textAlignment"		"South-West"
+		"textinsetx"		"4"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"paintborder"		"1"
 		"command"		"jointeam auto"
 		"associated_model"	"autodoor"
-		"font"			"cbhud30"
+		"font"			"robotoreg14"
 		
-		"bgcolor"						"25 25 25 200"
-		"defaultBgColor_override" 		"25 25 25 200"
-		"armedBgColor_override" 		"25 25 25 200"
-		"depressedBgColor_override" 	"25 25 25 200"
-		"selectedBgColor_override"	 	"25 25 25 200"
+		"bgcolor"						"0 0 0 0"
+		"defaultBgColor_override" 		"0 0 0 0"
+		"armedBgColor_override" 		"0 0 0 0"
+		"depressedBgColor_override" 	"0 0 0 0"
+		"selectedBgColor_override"	 	"0 0 0 0"
 		
-		"Fgcolor"						"255 255 255 255"
-		"defaultFgColor_override" 		"255 255 255 255"
+		"Fgcolor"						"0 0 0 0"
+		"defaultFgColor_override" 		"0 0 0 0"
 		"armedFgColor_override" 		"255 255 255 255"
 		"depressedFgColor_override" 	"255 255 255 255"
 		"selectedFgColor_override"	 	"255 255 255 255"
@@ -243,6 +243,27 @@
 		"border_armed"			"CBBorderWhite2"		
 		"border_selected"		"CBBorderWhite2"			
 	}
+	"TeamButton2BG"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"TeamButton2BG"
+		"visible"			"1"
+		"enabled"			"1"
+	
+		"xpos"			"59"
+		"ypos"			"189"
+		"zpos"			"3"
+		"wide"			"50"
+		"tall"			"50"
+		
+		"font"				"cbhud30"
+		"labelText"			"?"
+		
+		"fgcolor_override"		"255 255 255 255"
+		"bgcolor_override"		"25 25 25 200"
+		"textAlignment"		"center"
+	}	
+	
 	
 	"teambutton3"
 	{
@@ -258,24 +279,24 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"2"
-		"labelText"		"V"	[$WIN32]
-		"textAlignment"		"Center"
-		"textinsetx"		"10"
+		"labelText"		"&2"	[$WIN32]
+		"textAlignment"		"North-West"
+		"textinsetx"		"4"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"paintborder"		"1"
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"
-		"font"			"cbhud30"
+		"font"			"robotoreg14"
 		
-		"bgcolor"						"25 25 25 200"
-		"defaultBgColor_override" 		"25 25 25 200"
-		"armedBgColor_override" 		"25 25 25 200"
-		"depressedBgColor_override" 	"25 25 25 200"
-		"selectedBgColor_override"	 	"25 25 25 200"
+		"bgcolor"						"0 0 0 0"
+		"defaultBgColor_override" 		"0 0 0 0"
+		"armedBgColor_override" 		"0 0 0 0"
+		"depressedBgColor_override" 	"0 0 0 0"
+		"selectedBgColor_override"	 	"0 0 0 0"
 		
-		"Fgcolor"						"255 255 255 255"
-		"defaultFgColor_override" 		"255 255 255 255"
+		"Fgcolor"						"0 0 0 0"
+		"defaultFgColor_override" 		"0 0 0 0"
 		"armedFgColor_override" 		"255 255 255 255"
 		"depressedFgColor_override" 	"255 255 255 255"
 		"selectedFgColor_override"	 	"255 255 255 255"
@@ -284,7 +305,26 @@
 		"border_armed"			"CBBorderWhite2"		
 		"border_selected"		"CBBorderWhite2"		
 	}
+	"TeamButton3BG"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"TeamButton3BG"
+		"visible"			"1"
+		"enabled"			"1"
 	
+		"xpos"			"59"
+		"ypos"			"241"
+		"zpos"			"3"
+		"wide"			"50"
+		"tall"			"50"
+		
+		"font"				"cbhud30"
+		"labelText"			"V"
+		
+		"fgcolor_override"		"255 255 255 255"
+		"bgcolor_override"		"25 25 25 200"
+		"textAlignment"		"center"
+	}		
 	
 	"BlueCount"
 	{
