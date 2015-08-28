@@ -584,7 +584,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-52"
 		"ypos"		"0"
-		"wide"		"f0"
+		"wide"		"200"
 		"tall"		"480"
 		
 		"blue_active_xpos"			"0"
