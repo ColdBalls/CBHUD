@@ -102,7 +102,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "0 0 0 0"
 	}
 	"ClassLabel"
 	{
@@ -168,8 +168,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TopLine"
-		"xpos"			"c-305"
-		"ypos"			"40"
+		"xpos"			"9999999"
+		"ypos"			"9999999"
 		"zpos"			"2"
 		"wide"			"610"
 		"tall"			"10"
@@ -183,8 +183,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BottomLine"
-		"xpos"			"c-305"
-		"ypos"			"330"
+		"xpos"			"9999999"
+		"ypos"			"9999999"
 		"zpos"			"2"
 		"wide"			"610"
 		"tall"			"10"
@@ -202,15 +202,8 @@
 		"font"			"HudFontMediumBold"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"west"
-		"xpos"			"c-55"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"375"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"xpos"			"9999999"
+		"ypos"			"9999999"
 	}
 
 	"NoItemsLabel"
