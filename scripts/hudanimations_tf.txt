@@ -209,9 +209,10 @@ event HudHealthBonusPulse
 	
 	
 	Animate	PlayerStatusHealthValue				FgColor		"CBHealthOverheal"		Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueSpec				FgColor		"CBHealthOverheal"		Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueSpecBG				BgColor		"CBHealthOverheal"		Accel 0.0 0.0
 	Animate 	PlayerStatusHealthValueFreezePanel 	BgColor 	"CBFreezePanelHealthOverheal"		Accel 0.0 0.0
+	
+	Animate	SpecHealthBlueBar 	Alpha		"200"			Linear 0.0 0.2
+	Animate	SpecHealthBlueBar 	Alpha		"130"			Linear 0.2 0.4	
 	
 	
 	RunEvent HudHealthBonusPulseLoop	0.4
@@ -232,6 +233,8 @@ event HudHealthBonusPulseStop
 	Animate PlayerStatusHealthValueSpec FgColor "CBHealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpecBG BgColor "0 0 0 0" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel BgColor "0 0 0 0" Accel 0.0 0.0
+
+	Animate	SpecHealthBlueBar 	Alpha		"0"		Accel 0.0 0.0 //remove healthBG1Blue	
 }
 
 //===========================================
@@ -243,11 +246,10 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"96"			Linear 0.125 0.075
 	
 	Animate PlayerStatusHealthValue 		 FgColor "CBHealthLow" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpec 		 FgColor "CBHealthLow" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpecBG 		 BgColor "CBHealthLow" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel BgColor "CBFreezePanelHealthLow" 	Accel 0.0 0.0
 
-
+	Animate	SpecHealthRedBar		Alpha		"250"		Linear 0.0 0.075
+	Animate	SpecHealthRedBar		Alpha		"210"			Linear 0.125 0.075	
 	
 	RunEvent HudHealthDyingPulseLoop	0.4
 }
@@ -267,6 +269,8 @@ event HudHealthDyingPulseStop
 	Animate PlayerStatusHealthValueSpec FgColor "CBHealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpecBG BgColor "0 0 0 0" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel BgColor "0 0 0 0" Accel 0.0 0.0
+	
+	Animate	SpecHealthRedBar 	Alpha		"0"		Accel 0.0 0.0 //remove healthBG1Red	
 }
 
 //===========================================
